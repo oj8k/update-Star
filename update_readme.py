@@ -20,47 +20,31 @@ GITHUB_ICON = '<img src="https://github.githubassets.com/images/modules/logos_pa
 def format_stars(count):
     return f"{GITHUB_ICON} {count/1000:.1f}K" if count >= 1000 else f"{GITHUB_ICON} {count}"
 
-# 项目名称自动换行（每 20 字断一行）
-def wrap_name(name, max_len=20):
+# 项目名称断行（每 20 字插入 <br>）
+def wrap_name(name, max_len=15):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
-# 简介清洗（保留完整内容）
-def clean_description(desc):
-    return (desc or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
+# 简介断行（每 40 字插入 <br>，不截断）
+def wrap_description(desc, max_len=40):
+    desc = (desc or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
+    return "<br>".join([desc[i:i+max_len] for i in range(0, len(desc), max_len)])
 
-# 构建 HTML 表格
+# 构建 Markdown 表格
 lines = [
-    "<table style='table-layout: fixed; width: 100%;'>",
-    "<thead><tr>",
-    "<th style='width:100px; font-size:13px;'>项目名称</th>",
-    "<th style='width:300px; font-size:13px;'>项目简介</th>",
-    "<th style='width:80px; font-size:13px;'>Star</th>",
-    "<th style='width:120px; font-size:13px;'>更新时间</th>",
-    "<th style='width:100px; font-size:13px;'>链接</th>",
-    "</tr></thead>",
-    "<tbody>"
+    "# 🌟 我的 GitHub 星标项目\n",
+    "| 项目名称 | 项目简介 | Star | 更新时间 | 链接 |",
+    "|----------|-----------|------:|:----------:|:--:|"
 ]
 
 for repo in starred:
     name = wrap_name(repo.name)
-    url = repo.html_url
-    desc = clean_description(repo.description)
+    desc = wrap_description(repo.description)
     stars = format_stars(repo.stargazers_count)
     updated = repo.updated_at.strftime("%Y-%m-%d")
+    url = repo.html_url
 
-    lines.append(
-        f"<tr>"
-        f"<td style='width:100px; word-break:break-word; font-size:13px;'>{name}</td>"
-        f"<td style='width:300px; word-break:break-word; font-size:13px;'>{desc}</td>"
-        f"<td style='width:80px; font-size:13px;'>{stars}</td>"
-        f"<td style='width:120px; font-size:13px;'>{updated}</td>"
-        f"<td style='width:100px; font-size:13px;'><a href='{url}'>GitHub</a></td>"
-        f"</tr>"
-    )
-
-lines.append("</tbody></table>")
+    lines.append(f"| {name} | {desc} | {stars} | {updated} | [GitHub]({url}) |")
 
 # 写入 README.md
 with open("README.md", "w", encoding="utf-8") as f:
-    f.write("# 🌟 我的 GitHub 星标项目\n\n")
     f.write("\n".join(lines))
