@@ -1,11 +1,15 @@
-from github import Github
+from github import Github, Auth
 import os
 
 # 获取 Token 和用户名
-token = os.getenv("GH_PAT")
-username = "oj8k"  # 👈 改成你的 GitHub 用户名
+token = os.getenv("GH_TOKEN")
+if not token:
+    raise ValueError("GH_TOKEN 环境变量未设置或为空")
 
-g = Github(token)
+auth = Auth.Token(token)
+g = Github(auth=auth)
+
+username = "oj8k"
 user = g.get_user(username)
 starred = user.get_starred()
 
