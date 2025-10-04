@@ -32,10 +32,10 @@ def clean_description(desc):
 lines = [
     "<table style='table-layout: fixed; width: 100%;'>",
     "<thead><tr>",
-    "<th style='width:120px; font-size:13px;'>项目名称</th>",
+    "<th style='width:100px; font-size:13px;'>项目名称</th>",
     "<th style='width:300px; font-size:13px;'>项目简介</th>",
     "<th style='width:80px; font-size:13px;'>Star</th>",
-    "<th style='width:100px; font-size:13px;'>更新时间</th>",
+    "<th style='width:120px; font-size:13px;'>更新时间</th>",
     "<th style='width:100px; font-size:13px;'>链接</th>",
     "</tr></thead>",
     "<tbody>"
@@ -50,10 +50,10 @@ for repo in starred:
 
     lines.append(
         f"<tr>"
-        f"<td style='width:120px; word-break:break-word; font-size:13px;'>{name}</td>"
+        f"<td style='width:100px; word-break:break-word; font-size:13px;'>{name}</td>"
         f"<td style='width:300px; word-break:break-word; font-size:13px;'>{desc}</td>"
         f"<td style='width:80px; font-size:13px;'>{stars}</td>"
-        f"<td style='width:100px; font-size:13px;'>{updated}</td>"
+        f"<td style='width:120px; font-size:13px;'>{updated}</td>"
         f"<td style='width:100px; font-size:13px;'><a href='{url}'>GitHub</a></td>"
         f"</tr>"
     )
