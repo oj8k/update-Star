@@ -20,6 +20,10 @@ GITHUB_ICON = '<img src="https://github.githubassets.com/images/modules/logos_pa
 def format_stars(count):
     return f"{GITHUB_ICON} {count/1000:.1f}K" if count >= 1000 else f"{GITHUB_ICON} {count}"
 
+# 项目名称自动换行（每 20 字断一行）
+def wrap_name(name, max_len=20):
+    return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
+
 # 构建 HTML 表格
 lines = [
     "<table>",
@@ -34,7 +38,7 @@ lines = [
 ]
 
 for repo in starred:
-    name = repo.name
+    name = wrap_name(repo.name)
     url = repo.html_url
     desc = (repo.description or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
     stars = format_stars(repo.stargazers_count)
