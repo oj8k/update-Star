@@ -13,21 +13,17 @@ username = "oj8k"
 user = g.get_user(username)
 starred = user.get_starred()
 
-# GitHub 图标（Octocat）
+# GitHub 图标
 GITHUB_ICON = '<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16">'
 
-# 格式化 Star 数（加图标 + K 单位）
 def format_stars(count):
     return f"{GITHUB_ICON} {count/1000:.1f}K" if count >= 1000 else f"{GITHUB_ICON} {count}"
 
-# 项目名称自动换行（每 20 字断一行）
-def wrap_name(name, max_len=15):
+def wrap_name(name, max_len=20):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
-# 简介限制字数并清洗
-def clean_description(desc, max_len=30):
-    desc = (desc or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
-    return desc[:max_len] + "..." if len(desc) > max_len else desc
+def clean_description(desc):
+    return (desc or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
 
 # 构建 HTML 表格
 lines = [
