@@ -1,6 +1,7 @@
 from github import Github, Auth
 import os
 
+# 获取 Token 和用户名
 token = os.getenv("GH_TOKEN")
 if not token:
     raise ValueError("GH_TOKEN 环境变量未设置或为空")
@@ -12,26 +13,46 @@ username = "oj8k"
 user = g.get_user(username)
 starred = user.get_starred()
 
-# GitHub 图标
+# GitHub 图标（Octocat）
 GITHUB_ICON = '<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16">'
 
+# 格式化 Star 数（加图标 + K 单位）
 def format_stars(count):
     return f"{GITHUB_ICON} {count/1000:.1f}K" if count >= 1000 else f"{GITHUB_ICON} {count}"
+
+# 项目名称自动换行（每 20 字断一行）
+def wrap_name(name, max_len=20):
+    return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # 构建 HTML 表格
 lines = [
     "<table>",
-    "<thead><tr><th style='width:15%'>项目名称</th><th style='width:45%'>项目简介</th><th style='width:10%'>Star</th><th style='width:15%'>更新时间</th><th style='width:15%'>链接</th></tr></thead>",
+    "<thead><tr>",
+    "<th style='width:18%'>项目名称</th>",
+    "<th style='width:42%'>项目简介</th>",
+    "<th style='width:10%'>Star</th>",
+    "<th style='width:15%'>更新时间</th>",
+    "<th style='width:15%'>链接</th>",
+    "</tr></thead>",
     "<tbody>"
 ]
 
 for repo in starred:
-    name = repo.name
+    name = wrap_name(repo.name)
     url = repo.html_url
-    desc = (repo.description or "暂无描述").replace("|", "｜").replace("\n", " ")
+    desc = (repo.description or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
     stars = format_stars(repo.stargazers_count)
     updated = repo.updated_at.strftime("%Y-%m-%d")
-    lines.append(f"<tr><td><code>{name}</code></td><td>{desc}</td><td>{stars}</td><td>{updated}</td><td><a href='{url}'>🔗</a></td></tr>")
+
+    lines.append(
+        f"<tr>"
+        f"<td style='word-break:break-word; max-width:120px'><code>{name}</code></td>"
+        f"<td style='word-break:break-word'>{desc}</td>"
+        f"<td>{stars}</td>"
+        f"<td>{updated}</td>"
+        f"<td><a href='{url}'>🔗</a></td>"
+        f"</tr>"
+    )
 
 lines.append("</tbody></table>")
 
