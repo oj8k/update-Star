@@ -13,10 +13,20 @@ username = "oj8k"
 user = g.get_user(username)
 starred = user.get_starred()
 
+# GitHub 图标（Octocat）
+GITHUB_ICON = '<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16">'
+
+# 格式化 Star 数（加图标 + K 单位）
+def format_stars(count):
+    if count >= 1000:
+        return f"{GITHUB_ICON} {count/1000:.1f}K"
+    else:
+        return f"{GITHUB_ICON} {count}"
+
 # 构建 Markdown 表格
 lines = [
-    "| 项目名称 | 项目简介 | ⭐ | 更新时间 | 🔗 |",
-    "|----------|-----------|----:|:----------:|:--:|"
+    "| 项目名称 | 项目简介 | Star | 更新时间 | 链接 |",
+    "|----------|-----------|------:|:----------:|:--:|"
 ]
 
 for repo in starred:
@@ -29,7 +39,7 @@ for repo in starred:
     if len(desc) > 60:
         desc = desc[:57] + "..."
 
-    stars = repo.stargazers_count
+    stars = format_stars(repo.stargazers_count)
     updated = repo.updated_at.strftime("%Y-%m-%d")
     lines.append(f"| {name} | {desc} | {stars} | {updated} | [🔗]({url}) |")
 
