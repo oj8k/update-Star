@@ -21,7 +21,7 @@ def format_stars(count):
     return f"{GITHUB_ICON} {count/1000:.1f}K" if count >= 1000 else f"{GITHUB_ICON} {count}"
 
 # 项目名称自动换行（每 20 字断一行）
-def wrap_name(name, max_len=20):
+def wrap_name(name, max_len=10):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # 构建 HTML 表格
