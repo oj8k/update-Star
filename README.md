@@ -28,7 +28,7 @@
 | `oneclickvirt.github.io` | 库苏恩(K'thun) - 一键虚拟化指南(OneClickVirt Documentation) | 149 | 2025-10-04 | [🔗](https://github.com/oneclickvirt/oneclickvirt.github.io) |
 | `karakeep` | A self-hostable bookmark-everything app (links, notes and... | 20015 | 2025-10-04 | [🔗](https://github.com/karakeep-app/karakeep) |
 | `reinstall` | 一键DD/重装脚本 (One-click reinstall OS on VPS) | 8006 | 2025-10-04 | [🔗](https://github.com/bin456789/reinstall) |
-| `cloud-mail` | cloudflare email 邮箱  临时邮箱 邮件发送 mail | 2559 | 2025-10-04 | [🔗](https://github.com/eoao/cloud-mail) |
+| `cloud-mail` | cloudflare email 邮箱  临时邮箱 邮件发送 mail | 2560 | 2025-10-04 | [🔗](https://github.com/eoao/cloud-mail) |
 | `ContextMenuManager` | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Windows 7 - 11）A program to ... | 130 | 2025-10-02 | [🔗](https://github.com/Jack251970/ContextMenuManager) |
 | `SafeLine` | SafeLine is a self-hosted WAF(Web Application Firewall) /... | 18156 | 2025-10-04 | [🔗](https://github.com/chaitin/SafeLine) |
 | `Termix` | Termix is a web-based server management platform with SSH... | 4859 | 2025-10-04 | [🔗](https://github.com/LukeGus/Termix) |
@@ -73,7 +73,7 @@
 | `WuWa-Configs` | Engine Tweaks to Improve Visuals/Performance | 959 | 2025-10-04 | [🔗](https://github.com/AlteriaX/WuWa-Configs) |
 | `MingChaoSign` | 鸣潮与社区签到 | 8 | 2025-08-31 | [🔗](https://github.com/Maojuan-lang/MingChaoSign) |
 | `mc_auto_boss` | 鸣潮后台自动刷BOSS声骸 | 744 | 2025-09-13 | [🔗](https://github.com/lazydog28/mc_auto_boss) |
-| `MobileModels` | 手机品牌型号汇总 | Mobile Models | This repository is licensed un... | 3838 | 2025-10-04 | [🔗](https://github.com/KHwang9883/MobileModels) |
+| `MobileModels` | 手机品牌型号汇总 ｜ Mobile Models ｜ This repository is licensed un... | 3838 | 2025-10-04 | [🔗](https://github.com/KHwang9883/MobileModels) |
 | `wuwa-aes-archive` | An archive of almost every AES key for Wuthering Waves. | 322 | 2025-10-04 | [🔗](https://github.com/ClostroOffi/wuwa-aes-archive) |
 | `openwrt-Exclusive` | 暂无描述 | 190 | 2025-09-30 | [🔗](https://github.com/firkerword/openwrt-Exclusive) |
 | `openwrt` | openwrt | 2329 | 2025-10-04 | [🔗](https://github.com/sirpdboy/openwrt) |
@@ -83,11 +83,11 @@
 | `Miao-Yunzai` | 喵版Yunzai-V3 | 1013 | 2025-10-04 | [🔗](https://github.com/yoimiya-kokomi/Miao-Yunzai) |
 | `waves-plugin` | 基于 Yunzai 的鸣潮游戏数据查询插件 | 306 | 2025-10-03 | [🔗](https://github.com/erzaozi/waves-plugin) |
 | `nonebot-plugin-wutheringwaves` | NoneBot2 - 鸣潮签到机器人 - 库街区 | 4 | 2024-07-12 | [🔗](https://github.com/Night-stars-1/nonebot-plugin-wutheringwaves) |
-| `Yunzai-Kuro-Plugin` | 一个库洛游戏 (战双&鸣潮) 的插件，适用于云崽Bot。 | A Plugin of Kuro Games(Pun... | 123 | 2025-09-28 | [🔗](https://github.com/TomyJan/Yunzai-Kuro-Plugin) |
+| `Yunzai-Kuro-Plugin` | 一个库洛游戏 (战双&鸣潮) 的插件，适用于云崽Bot。 ｜ A Plugin of Kuro Games(Pun... | 123 | 2025-09-28 | [🔗](https://github.com/TomyJan/Yunzai-Kuro-Plugin) |
 | `Wuthering_Waves_Auto` | 鸣潮自动脚本 | 30 | 2025-03-13 | [🔗](https://github.com/linyys/Wuthering_Waves_Auto) |
 | `TTime` | 🚀 Screenshots, word marking, OCR, AI, translation softwar... | 3065 | 2025-10-04 | [🔗](https://github.com/InkTimeRecord/TTime) |
 | `gpt_academic` | 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷... | 69298 | 2025-10-04 | [🔗](https://github.com/binary-husky/gpt_academic) |
-| `NextChat` | ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS... | 85990 | 2025-10-04 | [🔗](https://github.com/ChatGPTNextWeb/NextChat) |
+| `NextChat` | ✨ Light and Fast AI Assistant. Support: Web ｜ iOS ｜ MacOS... | 85990 | 2025-10-04 | [🔗](https://github.com/ChatGPTNextWeb/NextChat) |
 | `Are-u-ok` | KoolCenter iStore .run Packages | 1181 | 2025-10-04 | [🔗](https://github.com/bcseputetto/Are-u-ok) |
 | `WutheringWaves` | Wuthering Waves ps (0.9.0) | 257 | 2025-10-02 | [🔗](https://github.com/thexeondev/WutheringWaves) |
 | `Cimoc` | 漫画阅读器 | 3362 | 2025-10-04 | [🔗](https://github.com/Haleydu/Cimoc) |
@@ -97,13 +97,13 @@
 | `vits-simple-api` | A simple VITS HTTP API, developed by extending Moegoe wit... | 1014 | 2025-10-01 | [🔗](https://github.com/Artrajz/vits-simple-api) |
 | `TTSModels` | 暂无描述 | 619 | 2025-09-19 | [🔗](https://github.com/CjangCjengh/TTSModels) |
 | `Aoki` | Mirai 一键登录处理器 (现已不可用于登录，请使用签名服务) | 240 | 2025-09-10 | [🔗](https://github.com/MrXiaoM/Aoki) |
-| `AstrBot` | ✨ 一站式 LLM 聊天机器人平台及开发框架 ✨ 支持 QQ、QQ频道、Telegram、企微、飞书、钉钉 | 知... | 12394 | 2025-10-04 | [🔗](https://github.com/AstrBotDevs/AstrBot) |
-| `kirara-ai` | 🤖 可 DIY 的 多模态 AI 聊天机器人 | 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 | 🦈... | 16609 | 2025-10-04 | [🔗](https://github.com/lss233/kirara-ai) |
+| `AstrBot` | ✨ 一站式 LLM 聊天机器人平台及开发框架 ✨ 支持 QQ、QQ频道、Telegram、企微、飞书、钉钉 ｜ 知... | 12394 | 2025-10-04 | [🔗](https://github.com/AstrBotDevs/AstrBot) |
+| `kirara-ai` | 🤖 可 DIY 的 多模态 AI 聊天机器人 ｜ 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 ｜ 🦈... | 16610 | 2025-10-04 | [🔗](https://github.com/lss233/kirara-ai) |
 | `chatbox` | User-friendly Desktop Client App for AI Models/LLMs (GPT,... | 36819 | 2025-10-04 | [🔗](https://github.com/chatboxai/chatbox) |
 | `auto_wjx` | 不会有人连问卷星都要弄虚作假吧 | 4 | 2025-03-18 | [🔗](https://github.com/Lihewin/auto_wjx) |
 | `chatGPTBox` | Integrating ChatGPT into your browser deeply, everything ... | 10679 | 2025-10-04 | [🔗](https://github.com/ChatGPTBox-dev/chatGPTBox) |
 | `qBittorrent-Enhanced-Edition` | [Unofficial] qBittorrent Enhanced, based on qBittorrent | 23939 | 2025-10-04 | [🔗](https://github.com/c0re100/qBittorrent-Enhanced-Edition) |
-| `warp.sh` | Cloudflare WARP Installer | WARP 一键安装脚本 | 3911 | 2025-10-04 | [🔗](https://github.com/P3TERX/warp.sh) |
+| `warp.sh` | Cloudflare WARP Installer ｜ WARP 一键安装脚本 | 3911 | 2025-10-04 | [🔗](https://github.com/P3TERX/warp.sh) |
 | `docker.ui` | 暂无描述 | 768 | 2025-09-28 | [🔗](https://github.com/gohutool/docker.ui) |
 | `chatgpt-web` | Pure Javascript ChatGPT demo based on OpenAI API | 1020 | 2025-10-04 | [🔗](https://github.com/xqdoo00o/chatgpt-web) |
 | `chatgpt-web` | 基于ChatGPT3.5 API实现的私有化web程序 | 3171 | 2025-10-04 | [🔗](https://github.com/869413421/chatgpt-web) |
@@ -153,7 +153,7 @@
 | `x-ui` | 支持多协议多用户的 xray 面板 | 18228 | 2025-10-04 | [🔗](https://github.com/vaxilu/x-ui) |
 | `openwrt-packages` | openwrt常用软件包 | 6933 | 2025-10-04 | [🔗](https://github.com/kenzok8/openwrt-packages) |
 | `lede` | Lean's LEDE source | 31006 | 2025-10-04 | [🔗](https://github.com/coolsnowwolf/lede) |
-| `Actions-OpenWrt` | A template for building OpenWrt with GitHub Actions | 使用 ... | 7544 | 2025-10-04 | [🔗](https://github.com/P3TERX/Actions-OpenWrt) |
+| `Actions-OpenWrt` | A template for building OpenWrt with GitHub Actions ｜ 使用 ... | 7544 | 2025-10-04 | [🔗](https://github.com/P3TERX/Actions-OpenWrt) |
 | `aria2.sh` | Aria2 一键安装管理脚本 增强版 | 2959 | 2025-10-03 | [🔗](https://github.com/P3TERX/aria2.sh) |
 | `My-Actions` | 爱奇艺会员,腾讯视频,哔哩哔哩,百度,各类签到 | 479 | 2025-10-03 | [🔗](https://github.com/MayoBlueSky/My-Actions) |
 | `python_sign` | 联通营业厅签到,GLaDOS签到,腾讯视频签到,CSDN签到,每日新闻生成,掘金签到抽奖,邮件批量发送,leetc... | 247 | 2025-09-29 | [🔗](https://github.com/wangwangit/python_sign) |
