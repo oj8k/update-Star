@@ -3,7 +3,7 @@ import os
 
 # 从环境变量读取 GitHub Token
 token = os.getenv("GH_TOKEN")
-username = "你的GitHub用户名"  # 👈 修改为你的用户名
+username = "oj8k"  # 👈 修改为你的用户名
 
 g = Github(token)
 user = g.get_user(username)
