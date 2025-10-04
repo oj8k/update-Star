@@ -24,8 +24,8 @@ for repo in starred:
     url = repo.html_url
     desc = repo.description or "暂无描述"
 
-    # 简介截断处理（最多 60 字）
-    desc = desc.strip().replace("\n", " ")
+    # 清洗简介：去除换行、替换竖线、截断过长内容
+    desc = desc.strip().replace("\n", " ").replace("|", "｜")
     if len(desc) > 60:
         desc = desc[:57] + "..."
 
