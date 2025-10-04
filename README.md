@@ -30,7 +30,6 @@
 | `reinstall` | 一键DD/重装脚本 (One-click reinstall OS on VPS) | 8006 | 2025-10-04 | [🔗](https://github.com/bin456789/reinstall) |
 | `cloud-mail` | cloudflare email 邮箱  临时邮箱 邮件发送 mail | 2559 | 2025-10-04 | [🔗](https://github.com/eoao/cloud-mail) |
 | `ContextMenuManager` | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Windows 7 - 11）A program to manage the Windows right-click context menu with support of Windows 7 - 11 | 130 | 2025-10-02 | [🔗](https://github.com/Jack251970/ContextMenuManager) |
-| `Awesome-NAS-Docker` | 一个专注于 NAS 和 Docker 部署的开源项目合集，覆盖 AI、开发、数据管理、多媒体、运维等场景，提供一键式部署指南和实用教程，让 NAS 变身全能生产力工具！ | 2178 | 2025-10-04 | [🔗](https://github.com/TWO-ICE/Awesome-NAS-Docker) |
 | `SafeLine` | SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. | 18156 | 2025-10-04 | [🔗](https://github.com/chaitin/SafeLine) |
 | `Termix` | Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities. | 4859 | 2025-10-04 | [🔗](https://github.com/LukeGus/Termix) |
 | `komari-theme-purcarte` | 一个为 Komari 设计的磨砂玻璃风格主题 | 96 | 2025-10-04 | [🔗](https://github.com/Montia37/komari-theme-purcarte) |
