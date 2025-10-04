@@ -26,12 +26,12 @@ jobs:
 
       - name: 运行脚本
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_TOKEN }}
         run: python update_readme.py
 
       - name: 提交并推送更新
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "你的GitHub用户名"
           git config --global user.email "你的GitHub邮箱"
