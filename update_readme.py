@@ -15,7 +15,7 @@ lines = [
     "|----------|----------|----------|"
 ]
 
-for repo 在 starred:
+for repo in starred:
     name = repo.full_name
     url = repo.html_url
     desc = repo.description 或 "暂无描述"
