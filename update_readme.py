@@ -48,7 +48,7 @@ for repo in starred:
     lines.append(
         f"<tr>"
         f"<td style='word-break:break-word; max-width:120px; font-size:13px;'>{name}</td>"
-        f"<td style='word-break:break-word; max-width:300px; font-size:13px;'>{desc}</td>"
+        f"<td style='word-break:break-word; max-width:150px; font-size:13px;'>{desc}</td>"
         f"<td style='font-size:13px;'>{stars}</td>"
         f"<td style='font-size:13px;'>{updated}</td>"
         f"<td style='font-size:13px;'><a href='{url}'>GitHub</a></td>"
