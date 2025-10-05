@@ -19,7 +19,7 @@ def format_stars(count):
     return f"<sub>{value}</sub>"  # 小号字体，视觉紧凑
 
 # 项目名称断行（每 20 字插入 <br>）
-def wrap_name(name, max_len=15):
+def wrap_name(name, max_len=10):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # 简介断行（每 40 字插入 <br>，不截断）
