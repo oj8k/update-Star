@@ -13,19 +13,17 @@ username = "oj8k"
 user = g.get_user(username)
 starred = user.get_starred()
 
-# GitHub 图标（Octocat）
-GITHUB_ICON = '<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16">'
-
-# 格式化 Star 数（加图标 + K 单位）
+# Star 图标压缩显示
 def format_stars(count):
-    return f"{GITHUB_ICON} {count/1000:.1f}K" if count >= 1000 else f"{GITHUB_ICON} {count}"
+    value = f"{count/1000:.1f}K" if count >= 1000 else str(count)
+    return f"<sub>{value}</sub>"  # 小号字体，视觉紧凑
 
 # 项目名称断行（每 20 字插入 <br>）
-def wrap_name(name, max_len=15):
+def wrap_name(name, max_len=20):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # 简介断行（每 40 字插入 <br>，不截断）
-def wrap_description(desc, max_len=25):
+def wrap_description(desc, max_len=40):
     desc = (desc or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
     return "<br>".join([desc[i:i+max_len] for i in range(0, len(desc), max_len)])
 
