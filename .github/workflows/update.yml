@@ -3,39 +3,40 @@ name: 自动更新星标项目
 on:
   schedule:
     - cron: '0 0 * * *'  # 每天 UTC 时间 0 点运行
-  workflow_dispatch:
+  workflow_dispatch:     # 支持手动触发
 
 permissions:
-  contents: write  # 👈 允许写入仓库内容
+  contents: write        # ✅ 允许写入仓库内容
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 仓库
+      - name: ✅ Checkout 仓库
         uses: actions/checkout@v3
 
-      - name: 设置 Python 环境
+      - name: ✅ 设置 Python 环境
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: 安装依赖
-        run: pip install PyGithub
+      - name: ✅ 安装依赖
+        run: pip install -r requirements.txt
 
-      - name: 运行脚本
+      - name: ✅ 运行脚本生成 README
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python update_readme.py
 
-      - name: 提交并推送更新
+      - name: ✅ 提交并推送更新
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "你的GitHub用户名"
           git config --global user.email "你的GitHub邮箱"
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
           git add README.md
           git commit -m "自动更新星标项目列表" || echo "没有变更"
           git push origin HEAD:${{ github.ref_name }}
