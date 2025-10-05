@@ -26,11 +26,11 @@ def format_stars(count):
     return f"⭐ {value}"
 
 # ✅ 项目名称断行（每 20 字插入 <br>）
-def wrap_name(name, max_len=10):
+def wrap_name(name, max_len=20):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # ✅ 简介断行（每 40 字插入 <br>）
-def wrap_description(desc, max_len=20):
+def wrap_description(desc, max_len=40):
     desc = desc.replace("|", "｜").replace("\n", " ").strip()
     return "<br>".join([desc[i:i+max_len] for i in range(0, len(desc), max_len)])
 
@@ -41,11 +41,16 @@ def is_english(text):
 # ✅ Gemini 翻译函数（只翻译，不总结）
 def gemini_translate(text):
     model = genai.GenerativeModel("gemini-pro")
-    prompt = f"请将以下英文翻译成中文：\n\n{text}"
+    # 限制长度，避免 prompt 过长
+    if len(text) > 500:
+        text = text[:500] + "..."
+    prompt = f"请翻译成中文：{text}"
     try:
         response = model.generate_content(prompt)
         return response.text.strip()
-    except Exception:
+    except Exception as e:
+        print(f"⚠️ Gemini 翻译失败：{e}")
+        print(f"失败内容：{text}")
         return "（翻译失败）"
 
 # ✅ 构建 Markdown 表格
