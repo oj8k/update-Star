@@ -11,12 +11,15 @@ g = Github(auth=auth)
 
 username = "oj8k"
 user = g.get_user(username)
-starred = user.get_starred()
+starred = list(user.get_starred())  # 转为列表以便排序
+
+# ✅ 按更新时间降序排序
+starred.sort(key=lambda repo: repo.updated_at, reverse=True)
 
 # Star 图标压缩显示
 def format_stars(count):
     value = f"{count/1000:.1f}K" if count >= 1000 else str(count)
-    return f"<sub>{value}</sub>"  # 小号字体，视觉紧凑
+    return f"<sub>{value}</sub>"
 
 # 项目名称断行（每 20 字插入 <br>）
 def wrap_name(name, max_len=10):
@@ -29,7 +32,7 @@ def wrap_description(desc, max_len=25):
 
 # 构建 Markdown 表格
 lines = [
-    "# 🌟 我的 GitHub 星标项目\n",
+    "# 🌟 我的 GitHub 星标项目（按更新时间排序）\n",
     "| 项目名称 | 项目简介 | Star | 更新时间 | 链接 |",
     "|----------|-----------|------:|:----------:|:--:|"
 ]
@@ -38,7 +41,7 @@ for repo in starred:
     name = wrap_name(repo.name)
     desc = wrap_description(repo.description)
     stars = format_stars(repo.stargazers_count)
-    updated = repo.updated_at.strftime("%Y-%m-%d")  # 保持一行显示
+    updated = repo.updated_at.strftime("%Y-%m-%d")
     url = repo.html_url
 
     lines.append(f"| {name} | {desc} | {stars} | {updated} | [GitHub]({url}) |")
