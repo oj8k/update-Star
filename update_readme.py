@@ -39,11 +39,11 @@ def is_english(text):
     return all(ord(c) < 128 for c in text)
 
 # ✅ 项目名称断行
-def wrap_name(name, max_len=15):
+def wrap_name(name, max_len=20):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # ✅ 简介断行
-def wrap_description(desc, max_len=30):
+def wrap_description(desc, max_len=35):
     desc = desc.replace("|", "｜").replace("\n", " ").strip()
     return "<br>".join([desc[i:i+max_len] for i in range(0, len(desc), max_len)])
 
