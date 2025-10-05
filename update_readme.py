@@ -40,7 +40,7 @@ def is_english(text):
 
 # ✅ Gemini 翻译函数（只翻译，不总结）
 def gemini_translate(text):
-    model = genai.GenerativeModel("models/gemini-2.5-pro")
+    model = genai.GenerativeModel("models/gemini-1.5-flash")
     # 限制长度，避免 prompt 过长
     if len(text) > 500:
         text = text[:500] + "..."
