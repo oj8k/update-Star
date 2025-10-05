@@ -2,6 +2,7 @@
 
 | 项目名称 | 项目简介 | Star | 更新时间 | 链接 |
 |----------|-----------|------:|:----------:|:--:|
+| linux-command | Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。htt<br>ps://git.io/linux | ⭐ 34.6K | 2025-10-05 | <a href='https://github.com/jaywcjlove/linux-command' target='_blank'>GitHub</a> |
 | TrackersListCollecti<br>on | 🎈 Updated daily! A list of popular BitTo<br>rrent Trackers! / 每天更新！全网热门 BT Tracker 列<br>表！ | ⭐ 29.5K | 2025-10-05 | <a href='https://github.com/XIU2/TrackersListCollection' target='_blank'>GitHub</a> |
 | AstrBot | ✨ 一站式 LLM 聊天机器人平台及开发框架 ✨ 支持 QQ、QQ频道、Tele<br>gram、企微、飞书、钉钉 ｜ 知识库、MCP 服务器、OpenAI、DeepS<br>eek、Gemini、硅基流动、月之暗面、Ollama、OneAPI、Dify | ⭐ 12.4K | 2025-10-05 | <a href='https://github.com/AstrBotDevs/AstrBot' target='_blank'>GitHub</a> |
 | tabby | A terminal for a more modern age<br><br><br><i>（翻译失败）</i> | ⭐ 66.5K | 2025-10-05 | <a href='https://github.com/Eugeny/tabby' target='_blank'>GitHub</a> |
@@ -54,7 +55,6 @@
 | fly-cursor-free | 轻松一键续杯 Cursor Pro，保持14天试用不掉。【支持 Claude 4<br>】 | ⭐ 805 | 2025-10-04 | <a href='https://github.com/liqiang-xxfy/fly-cursor-free' target='_blank'>GitHub</a> |
 | new-api | AI模型聚合管理分发系统，支持将多种大模型转为统一格式调用，支持OpenAI、C<br>laude、Gemini等格式，可供个人或者企业内部管理与分发渠道使用。🍥 Th<br>e next-generation LLM gateway and AI ass<br>et management system supports multiple l<br>anguages. | ⭐ 11.0K | 2025-10-04 | <a href='https://github.com/QuantumNous/new-api' target='_blank'>GitHub</a> |
 | qinglong | 支持 Python3、JavaScript、Shell、Typescript 的<br>定时任务管理平台（Timed task management platform <br>supporting Python3, JavaScript, Shell, T<br>ypescript） | ⭐ 18.5K | 2025-10-04 | <a href='https://github.com/whyour/qinglong' target='_blank'>GitHub</a> |
-| linux-command | Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。htt<br>ps://git.io/linux | ⭐ 34.6K | 2025-10-04 | <a href='https://github.com/jaywcjlove/linux-command' target='_blank'>GitHub</a> |
 | TTime | 🚀 Screenshots, word marking, OCR, AI, tr<br>anslation software ｜｜ 截图、划词、文字识别、AI、翻译软件 | ⭐ 3.1K | 2025-10-04 | <a href='https://github.com/InkTimeRecord/TTime' target='_blank'>GitHub</a> |
 | NetworkPanel | 测试您的网速，多出口查询您的ip地址 | ⭐ 852 | 2025-10-04 | <a href='https://github.com/ljxi/NetworkPanel' target='_blank'>GitHub</a> |
 | openwrt-packages | openwrt常用软件包 | ⭐ 6.9K | 2025-10-04 | <a href='https://github.com/kenzok8/openwrt-packages' target='_blank'>GitHub</a> |
