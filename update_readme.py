@@ -43,7 +43,7 @@ def wrap_name(name, max_len=7):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # ✅ 简介断行
-def wrap_description(desc, max_len=17):
+def wrap_description(desc, max_len=30):
     desc = desc.replace("|", "｜").replace("\n", " ").strip()
     return "<br>".join([desc[i:i+max_len] for i in range(0, len(desc), max_len)])
 
