@@ -22,11 +22,11 @@ def format_stars(count):
     return f"⭐ {value}"
 
 # 项目名称断行（每 20 字插入 <br>）
-def wrap_name(name, max_len=20):
+def wrap_name(name, max_len=10):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # 简介断行（每 40 字插入 <br>，不截断）
-def wrap_description(desc, max_len=40):
+def wrap_description(desc, max_len=20):
     desc = (desc or "暂无描述").replace("|", "｜").replace("\n", " ").strip()
     return "<br>".join([desc[i:i+max_len] for i in range(0, len(desc), max_len)])
 
