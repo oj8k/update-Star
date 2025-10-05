@@ -62,14 +62,13 @@ g = Github(auth=auth)
 
 username = os.getenv("GH_USERNAME")
 user = g.get_user(username)
-starred = list(user.get_starred())
-starred.sort(key=lambda repo: repo.updated_at, reverse=True)
+starred = list(user.get_starred())  # ✅ 保留默认顺序，不排序
 
-# ✅ 构建 README 表格
+# ✅ 构建 README 表格（无时间列，Star+链接合并）
 lines = [
-    "# 🌟 我的 GitHub Star项目（按更新时间排序）\n",
-    "| 项目名称 | 项目简介 | Star | 更新时间 | 链接 |",
-    "|----------|-----------|------:|:----------:|:--:|"
+    "# 🌟 我的 GitHub Star项目\n",
+    "| 项目名称 | 项目简介 | 项目链接 |",
+    "|----------|-----------|:-----------:|"
 ]
 
 for repo in starred:
@@ -84,11 +83,10 @@ for repo in starred:
 
     desc = wrap_description(desc_combined)
     stars = format_stars(repo.stargazers_count)
-    updated = repo.updated_at.strftime("%Y-%m-%d")
     url = repo.html_url
-    link_html = f"<a href='{url}' target='_blank'>GitHub</a>"
+    star_link = f"<a href='{url}' target='_blank'>{stars}</a>"
 
-    lines.append(f"| {name} | {desc} | {stars} | {updated} | {link_html} |")
+    lines.append(f"| {name} | {desc} | {star_link} |")
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
