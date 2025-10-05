@@ -37,8 +37,8 @@ jobs:
 
       - name: ✅ 提交并推送更新
         run: |
-          git config --global user.name ""
-          git config --global user.email ""
+          git config --global user.name "${{ env.GH_USERNAME }}"
+          git config --global user.email "${{ env.GH_USERNAME }}@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
           git add README.md
           git commit -m "自动更新星标项目列表" || echo "没有变更"
