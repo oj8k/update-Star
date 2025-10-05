@@ -39,11 +39,11 @@ def is_english(text):
     return all(ord(c) < 128 for c in text)
 
 # ✅ 项目名称断行
-def wrap_name(name, max_len=20):
+def wrap_name(name, max_len=10):
     return "<br>".join([name[i:i+max_len] for i in range(0, len(name), max_len)])
 
 # ✅ 简介断行
-def wrap_description(desc, max_len=40):
+def wrap_description(desc, max_len=20):
     desc = desc.replace("|", "｜").replace("\n", " ").strip()
     return "<br>".join([desc[i:i+max_len] for i in range(0, len(desc), max_len)])
 
@@ -67,7 +67,7 @@ starred.sort(key=lambda repo: repo.updated_at, reverse=True)
 
 # ✅ 构建 README 表格
 lines = [
-    "# 🌟 我的 GitHub 星标项目（按更新时间排序）\n",
+    "# 🌟 我的 GitHub Star项目（按更新时间排序）\n",
     "| 项目名称 | 项目简介 | Star | 更新时间 | 链接 |",
     "|----------|-----------|------:|:----------:|:--:|"
 ]
