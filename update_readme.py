@@ -60,7 +60,7 @@ if not token:
 auth = Auth.Token(token)
 g = Github(auth=auth)
 
-username = "oj8k"
+username = os.getenv("GH_USERNAME")
 user = g.get_user(username)
 starred = list(user.get_starred())
 starred.sort(key=lambda repo: repo.updated_at, reverse=True)
