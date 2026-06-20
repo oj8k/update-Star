@@ -2,8 +2,10 @@
 
 | 项目名称 | 项目简介 | 项目链接 |
 |----------|-----------|:-----------:|
+| aimili-vpngate | aimili-vpngate是一个借助vpngate.net让Linu<br>x用干净ip出站的代理工具。 | <a href='https://github.com/baoweise-bot/aimili-vpngate' target='_blank'>⭐ 1.1K</a> |
+| DTV | 抖音、b站、斗鱼、虎牙跨平台轻量化桌面客户端 | <a href='https://github.com/chen-zeong/DTV' target='_blank'>⭐ 1.8K</a> |
 | sms-jiema | 汇总国外1000个免费手机号接码 - 国外免费手机号验证平台 | <a href='https://github.com/workwayfi/sms-jiema' target='_blank'>⭐ 267</a> |
-| worldmonitor | Real-time global intelligence dashb<br>oard. AI-powered news aggregation, <br>geopolitical monitoring, and infras<br>tructure tracking in a unified situ<br>ational awareness interface<br><br><br><i>实时全球情报仪表盘。在一个统一的态势感知界面中，集成了AI驱动的<br>新闻聚合、地缘政治监控和基础设施跟踪功能...</i> | <a href='https://github.com/koala73/worldmonitor' target='_blank'>⭐ 56.8K</a> |
+| worldmonitor | Real-time global intelligence dashb<br>oard. AI-powered news aggregation, <br>geopolitical monitoring, and infras<br>tructure tracking in a unified situ<br>ational awareness interface<br><br><br><i>实时全球情报仪表盘。在一个统一的态势感知界面中，整合了人工智能驱<br>动的新闻聚合、地缘政治监测以及基础设施追踪。</i> | <a href='https://github.com/koala73/worldmonitor' target='_blank'>⭐ 57.4K</a> |
 | BilibiliSponsorBlock | 一款跳过小电视视频中恰饭片段的浏览器插件，移植自 SponsorBlo<br>ck。A browser extension to skip spon<br>sored segments in videos, ported fr<br>om the SponsorBlock | <a href='https://github.com/hanydd/BilibiliSponsorBlock' target='_blank'>⭐ 5.6K</a> |
 | SSTap-Rule | 支持更多游戏规则，让SSTap成为真正的“网游加速器” | <a href='https://github.com/FQrabbit/SSTap-Rule' target='_blank'>⭐ 6.6K</a> |
 | Saber-Translator | ✨ 一款小白也能轻松使用的漫画翻译工具，旨在帮助漫画爱好者轻松跨越语言<br>障碍，畅享原汁原味的日文漫画。  利用先进的 AI 技术，智能检测漫画<br>中的对话气泡，精准识别日文文本，并快速翻译成流畅自然的中文。  ✨ 无<br>论是图片还是 PDF 格式的漫画，Saber-Translator 都<br>能轻松应对，让你无压力阅读心爱的漫画作品。 | <a href='https://github.com/MashiroSaber03/Saber-Translator' target='_blank'>⭐ 3.3K</a> |
@@ -15,78 +17,78 @@
 | dujiaoka | 🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快<br>速！🚀🚀🎉🎉 | <a href='https://github.com/assimon/dujiaoka' target='_blank'>⭐ 12.1K</a> |
 | sh | KEJILION.SH 一款全功能的Linux管理脚本！An all-<br>in-one Linux management script! | <a href='https://github.com/kejilion/sh' target='_blank'>⭐ 2.9K</a> |
 | Awesome-NAS-Docker | 一个专注于 NAS 和 Docker 部署的开源项目合集，覆盖 AI、<br>开发、数据管理、多媒体、运维等场景，提供一键式部署指南和实用教程，让 <br>NAS 变身全能生产力工具！ | <a href='https://github.com/TWO-ICE/Awesome-NAS-Docker' target='_blank'>⭐ 4.0K</a> |
-| opentrace | Open Source Visualized Route Tracin<br>g Tool for macOS, Windows, and Linu<br>x.<br><br><i>适用于 macOS、Windows 和 Li<br>nux 的开放源代码可视化路由追踪工具。</i> | <a href='https://github.com/Archeb/opentrace' target='_blank'>⭐ 4.3K</a> |
+| opentrace | Open Source Visualized Route Tracin<br>g Tool for macOS, Windows, and Linu<br>x.<br><br><i>开源可视化路由追踪工具，适用于 macOS、<br>Windows 和 Linux...</i> | <a href='https://github.com/Archeb/opentrace' target='_blank'>⭐ 4.3K</a> |
 | sun-panel | A server, NAS navigation panel, Hom<br>epage, browser homepage. ｜ 一个服务器、NA<br>S导航面板、Homepage、浏览器首页。 | <a href='https://github.com/hslr-s/sun-panel' target='_blank'>⭐ 5.2K</a> |
 | appstore | 1Panel 应用商店的非官方应用适配库  1Panel Store <br>Unofficial App Adaptation Repositor<br>y (https://t.me/dockerbox) | <a href='https://github.com/okxlin/appstore' target='_blank'>⭐ 1.0K</a> |
 | nexus-terminal | 一款现代化的 Web SSH / RDP / VNC 客户端，提供独立<br>桌面端，支持人机验证、2FA、界面定制、操作审计等强大功能。 | <a href='https://github.com/Heavrnl/nexus-terminal' target='_blank'>⭐ 1.8K</a> |
 | fly-cursor-free | 轻松一键续杯 Cursor Pro，保持14天试用不掉。【支持 Cla<br>ude 4】 | <a href='https://github.com/liqiang-xxfy/fly-cursor-free' target='_blank'>⭐ 1.9K</a> |
-| NapCatQQ | Modern protocol-side framework base<br>d on NTQQ<br><br><i>基于NTQQ的现代协议端框架.<br>..</i> | <a href='https://github.com/NapNeko/NapCatQQ' target='_blank'>⭐ 9.5K</a> |
+| NapCatQQ | Modern protocol-side framework base<br>d on NTQQ<br><br><i>现代协议侧框架基于NTQQ..<br>.</i> | <a href='https://github.com/NapNeko/NapCatQQ' target='_blank'>⭐ 9.5K</a> |
 | s-ui | An advanced Web Panel • Built for S<br>agerNet/Sing-Box | <a href='https://github.com/alireza0/s-ui' target='_blank'>⭐ 9.2K</a> |
 | taosync | TaoSync是一个适用于OpenList v3+的自动化同步工具/S<br>ync for OpenList/AList | <a href='https://github.com/dr34m-cn/taosync' target='_blank'>⭐ 1.5K</a> |
 | alist-sync | 暂无描述 | <a href='https://github.com/xjxjin/alist-sync' target='_blank'>⭐ 174</a> |
 | cloudflare_temp_emai<br>l | CloudFlare free temp domain email 免<br>费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramB<br>ot | <a href='https://github.com/dreamhunter2333/cloudflare_temp_email' target='_blank'>⭐ 10.0K</a> |
-| oci-helper | 基于 Oracle OCI SDK 🐢 开发的 web 端可视化甲骨文<br>云助手（Y探长），目前实现的功能有：批量添加多个租户配置、更改实例配置<br>、引导卷配置、一键开启免费AMD实例下行500Mbps、一键更新、一键<br>救援/缩小硬盘、附加ipv6、安全列表、实时流量查询（分钟级别）、根据<br>多个 CIDR 网段更换实例公共IP、多租户同时批量抢机、Cloud <br>Shell 控制台、断点续抢、备份恢复、日志实时查看、消息通知、MFA<br>登录验证、更新 Cloudflare DNS 记录、TG 机器人操作等<br>功能。 | <a href='https://github.com/Yohann0617/oci-helper' target='_blank'>⭐ 700</a> |
-| vaultwarden | Unofficial Bitwarden compatible ser<br>ver written in Rust, formerly known<br> as bitwarden_rs<br><br><i>一个用 Rust<br> 编写的非官方 Bitwarden 兼容服务器，原名为 bitward<br>en_rs...</i> | <a href='https://github.com/dani-garcia/vaultwarden' target='_blank'>⭐ 62.5K</a> |
-| NodePassDash | A modern web dashboard for managing<br> NodePass<br><br><i>用于管理 NodePass 的<br>现代 Web 仪表盘。</i> | <a href='https://github.com/NodePassProject/NodePassDash' target='_blank'>⭐ 430</a> |
-| flux-panel | 基于gost的转发面板 | <a href='https://github.com/BrunuhVille/flux-panel' target='_blank'>⭐ 169</a> |
+| oci-helper | 基于 Oracle OCI SDK 🐢 开发的 web 端可视化甲骨文<br>云助手（Y探长），目前实现的功能有：批量添加多个租户配置、更改实例配置<br>、引导卷配置、一键开启免费AMD实例下行500Mbps、一键更新、一键<br>救援/缩小硬盘、附加ipv6、安全列表、实时流量查询（分钟级别）、根据<br>多个 CIDR 网段更换实例公共IP、多租户同时批量抢机、Cloud <br>Shell 控制台、断点续抢、备份恢复、日志实时查看、消息通知、MFA<br>登录验证、更新 Cloudflare DNS 记录、TG 机器人操作等<br>功能。 | <a href='https://github.com/Yohann0617/oci-helper' target='_blank'>⭐ 701</a> |
+| vaultwarden | Unofficial Bitwarden compatible ser<br>ver written in Rust, formerly known<br> as bitwarden_rs<br><br><i>一个用 Rust<br> 编写的非官方 Bitwarden 兼容服务器，曾用名 bitward<br>en_rs...</i> | <a href='https://github.com/dani-garcia/vaultwarden' target='_blank'>⭐ 62.6K</a> |
+| NodePassDash | A modern web dashboard for managing<br> NodePass<br><br><i>这里有几种翻译方式，取决于语境<br>和偏好：  1.  **用于管理 NodePass 的现代化 Web <br>控制面板。**     *   这是比较直接且专业的翻译，"控制面板"<br>（Control Panel）是"dashboard"在软件管理语境下<br>的常见译法。  2.  **用于管理 NodePass 的现代 Web<br> 仪表盘。**     *   "仪表盘"是"dashboard"的字<br>面翻译，也常用于表示数据概览和管理界面。  3.  **NodePas<br>s 现代化 Web 管理界面。**     *   这种翻译更简洁，"<br>管理界面"（Management Interface）在中文技术语境中<br>非常常用，且包含了"dashboard"的功能性含义。  我会推荐第一<br>种或第三种，它们在技术语境下更自然和常用。  **推荐翻译：**  *<br>*用于管理 NodePass 的现代化 Web 控制面板。**  或者<br>：  **NodePass 现代化 Web 管理界面。**</i> | <a href='https://github.com/NodePassProject/NodePassDash' target='_blank'>⭐ 430</a> |
+| flux-panel | 基于gost的转发面板 | <a href='https://github.com/BrunuhVille/flux-panel' target='_blank'>⭐ 170</a> |
 | nav-item | 导航站 | <a href='https://github.com/eooce/nav-item' target='_blank'>⭐ 367</a> |
-| watchtower | A process for automating Docker con<br>tainer base image updates. <br><br><br><i>一个用于自动化 Docker 容器基础镜像更新的过程。</i> | <a href='https://github.com/containrrr/watchtower' target='_blank'>⭐ 24.7K</a> |
-| NodeSeekSignin | NodeSeek 论坛自动签到Cookie版，支持青龙、直接运行、钉钉<br>机器人通知。 | <a href='https://github.com/wugeng20/NodeSeekSignin' target='_blank'>⭐ 35</a> |
+| watchtower | A process for automating Docker con<br>tainer base image updates. <br><br><br><i>一种实现 Docker 容器基础镜像自动化更新的流程。</i> | <a href='https://github.com/containrrr/watchtower' target='_blank'>⭐ 24.7K</a> |
+| NodeSeekSignin | NodeSeek 论坛自动签到Cookie版，支持青龙、直接运行、钉钉<br>机器人通知。 | <a href='https://github.com/wugeng20/NodeSeekSignin' target='_blank'>⭐ 36</a> |
 | nftables-nat-rust | nftables nat规则生成器 | <a href='https://github.com/arloor/nftables-nat-rust' target='_blank'>⭐ 930</a> |
 | realm-xwPF | Realm 全功能一键中转脚本，终端可视化界面构建网络转发服务.Rea<br>lm: Full-featured one-click network<br> relay — configure and manage forwa<br>rding rules from an interactive TUI<br>. | <a href='https://github.com/zywe03/realm-xwPF' target='_blank'>⭐ 1.0K</a> |
 | UniBoard | 个人介绍，导航页、笔记、短链、文件分享、探针，私有化部署。Profil<br>e、Note、ShortURL、FileSharing、probeMo<br>nitor…… with self-host | <a href='https://github.com/Coooolfan/UniBoard' target='_blank'>⭐ 241</a> |
 | ChinaTextbook | 所有小初高、大学PDF教材。 | <a href='https://github.com/TapXWorld/ChinaTextbook' target='_blank'>⭐ 74.4K</a> |
 | BillionMail | BillionMail gives you open-source M<br>ailServer, NewsLetter,  Email Marke<br>ting — fully self-hosted, dev-frien<br>dly, and free from monthly fees. Jo<br>in the discord: https://discord.gg/<br>asfXzBUhZr | <a href='https://github.com/Billionmail/BillionMail' target='_blank'>⭐ 15.2K</a> |
 | oneclickvirt.github.<br>io | 一键虚拟化说明文档(OneClickVirt Documentatio<br>n) | <a href='https://github.com/oneclickvirt/oneclickvirt.github.io' target='_blank'>⭐ 163</a> |
-| karakeep | A self-hostable bookmark-everything<br> app (links, notes and images) with<br> AI-based automatic tagging and ful<br>l text search<br><br><i>（翻译失败）</i> | <a href='https://github.com/karakeep-app/karakeep' target='_blank'>⭐ 26.1K</a> |
+| karakeep | A self-hostable bookmark-everything<br> app (links, notes and images) with<br> AI-based automatic tagging and ful<br>l text search<br><br><i>一个可自行托管的万能书<br>签应用（支持链接、笔记和图片），具备基于AI的自动打标签和全文搜索功能<br>。</i> | <a href='https://github.com/karakeep-app/karakeep' target='_blank'>⭐ 26.1K</a> |
 | reinstall | 一键DD/重装脚本 (One-click reinstall OS o<br>n VPS) | <a href='https://github.com/bin456789/reinstall' target='_blank'>⭐ 12.3K</a> |
 | cloud-mail | A Cloudflare-based email service  ｜<br> 基于 Cloudflare 的邮箱服务  ｜ Cloudflare <br>Email 邮箱 Mail | <a href='https://github.com/maillab/cloud-mail' target='_blank'>⭐ 11.4K</a> |
-| ContextMenuManager | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Window<br>s 7 - 11）A program to manage the Wi<br>ndows right-click context menu with<br> support of Windows 7 - 11 | <a href='https://github.com/Jack251970/ContextMenuManager' target='_blank'>⭐ 760</a> |
-| SafeLine | SafeLine is a self-hosted WAF(Web A<br>pplication Firewall) / reverse prox<br>y to protect your web apps from att<br>acks and exploits.<br><br><i>（翻译失败）<br></i> | <a href='https://github.com/chaitin/SafeLine' target='_blank'>⭐ 21.5K</a> |
-| Termix | Self-hosted SSH and remote desktop <br>management.<br><br><i>自托管 SSH 和远程桌面<br>管理...</i> | <a href='https://github.com/Termix-SSH/Termix' target='_blank'>⭐ 13.6K</a> |
+| ContextMenuManager | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Window<br>s 7 - 11）A program to manage the Wi<br>ndows right-click context menu with<br> support of Windows 7 - 11 | <a href='https://github.com/Jack251970/ContextMenuManager' target='_blank'>⭐ 761</a> |
+| SafeLine | SafeLine is a self-hosted WAF(Web A<br>pplication Firewall) / reverse prox<br>y to protect your web apps from att<br>acks and exploits.<br><br><i>SafeLi<br>ne 是一个自托管的 WAF (Web 应用防火墙) / 反向代理，旨<br>在保护您的 Web 应用免受攻击和漏洞利用。</i> | <a href='https://github.com/chaitin/SafeLine' target='_blank'>⭐ 21.5K</a> |
+| Termix | Self-hosted SSH and remote desktop <br>management.<br><br><i>（翻译失败）</i> | <a href='https://github.com/Termix-SSH/Termix' target='_blank'>⭐ 13.6K</a> |
 | komari-theme-purcart<br>e | 一个为 Komari 设计的磨砂玻璃风格主题 | <a href='https://github.com/Montia37/komari-theme-purcarte' target='_blank'>⭐ 410</a> |
 | NodeQuality | 在沙箱环境中运行vps测试脚本，并排版测试结果 | <a href='https://github.com/LloydAsp/NodeQuality' target='_blank'>⭐ 1.8K</a> |
 | subs-check | 订阅转换、测速、测活、流媒体检测、重命名、导出为任意格式订阅的工具 | <a href='https://github.com/beck-8/subs-check' target='_blank'>⭐ 5.0K</a> |
 | zjm | 暂无描述 | <a href='https://github.com/vpsbuy/zjm' target='_blank'>⭐ 43</a> |
 | nezha | :trollface: Self-hosted, lightweigh<br>t server and website monitoring and<br> O&M tool<br><br><i>（翻译失败）</i> | <a href='https://github.com/nezhahq/nezha' target='_blank'>⭐ 10.2K</a> |
-| komari | A simple server monitor tool.<br><b<br>r><i>（翻译失败）</i> | <a href='https://github.com/komari-monitor/komari' target='_blank'>⭐ 5.0K</a> |
+| komari | A simple server monitor tool.<br><b<br>r><i>一个简单的服务器监控工具……</i> | <a href='https://github.com/komari-monitor/komari' target='_blank'>⭐ 5.1K</a> |
 | aya | Android ADB desktop app<br><br><i>（<br>翻译失败）</i> | <a href='https://github.com/liriliri/aya' target='_blank'>⭐ 5.2K</a> |
 | GitHubDaily | 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、<br>编程网站、技术资讯。A list cool, interesting <br>projects of GitHub. | <a href='https://github.com/GitHubDaily/GitHubDaily' target='_blank'>⭐ 46.8K</a> |
 | AiNiee | 一款专注于Ai翻译的工具，一键自动翻译RPG SLG游戏，Epub T<br>XT小说，PDF Word MD文档，Srt Vtt Lrc字幕等等复<br>杂长文本。 | <a href='https://github.com/NEKOparapa/AiNiee' target='_blank'>⭐ 5.9K</a> |
 | Duckfolio | 个人主页 | <a href='https://github.com/Yorlg/Duckfolio' target='_blank'>⭐ 78</a> |
 | pansou | PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜<br>索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能<br>排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学<br>习研究，请勿以各种形式用于盈利目的。 | <a href='https://github.com/fish2018/pansou' target='_blank'>⭐ 13.6K</a> |
-| idcard_generator- | 身份证图片生成工具-仅供学习交流。已打包Maocs app和Windo<br>ws exe，可直接下载使用 | <a href='https://github.com/xiamuguizhi/idcard_generator-' target='_blank'>⭐ 601</a> |
-| OpenList | A new AList Fork to Anti Trust Cris<br>is<br><br><i>（翻译失败）</i> | <a href='https://github.com/OpenListTeam/OpenList' target='_blank'>⭐ 23.1K</a> |
+| idcard_generator- | 身份证图片生成工具-仅供学习交流。已打包Maocs app和Windo<br>ws exe，可直接下载使用 | <a href='https://github.com/xiamuguizhi/idcard_generator-' target='_blank'>⭐ 602</a> |
+| OpenList | A new AList Fork to Anti Trust Cris<br>is<br><br><i>一个新的 AList 分叉，以应对反垄断危机<br>...</i> | <a href='https://github.com/OpenListTeam/OpenList' target='_blank'>⭐ 23.1K</a> |
 | lucky | 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,W<br>OL,ipv4 stun内网穿透,cron,acme,rclone,f<br>tp,webdav,filebrowser | <a href='https://github.com/gdy666/lucky' target='_blank'>⭐ 7.9K</a> |
-| cherry-studio | AI productivity studio with smart c<br>hat, autonomous agents, and 300+ as<br>sistants. Unified access to frontie<br>r LLMs<br><br><i>（翻译失败）</i> | <a href='https://github.com/CherryHQ/cherry-studio' target='_blank'>⭐ 47.5K</a> |
+| cherry-studio | AI productivity studio with smart c<br>hat, autonomous agents, and 300+ as<br>sistants. Unified access to frontie<br>r LLMs<br><br><i>AI生产力工作台，集成智能聊天、自主<br>智能体和300多个助手。统一接入前沿大语言模型...</i> | <a href='https://github.com/CherryHQ/cherry-studio' target='_blank'>⭐ 47.6K</a> |
 | Cloudflare-vless-tro<br>jan | CF-workers/pages代理脚本：支持Vless-ws(tls<br>)、Trojan-ws(tls)；Socks5/http本地代理脚本：<br>可选ECH-TLS、普通TLS、无TLS三种代理模式 | <a href='https://github.com/yonggekkk/Cloudflare-vless-trojan' target='_blank'>⭐ 15.4K</a> |
 | portainer-ce | portainer-ce 2.33.x 中文汉化版docker镜像，支<br>持X86、ARM、ARM64、Windows | <a href='https://github.com/eysp/portainer-ce' target='_blank'>⭐ 929</a> |
-| hexhub | Hexhub 是一款开源的SSH、SFTP、数据库管理客户端，数据库管<br>理模块目前还在开发之中 | <a href='https://github.com/EdikKing/hexhub' target='_blank'>⭐ 431</a> |
+| hexhub | Hexhub 是一款开源的SSH、SFTP、数据库管理客户端，数据库管<br>理模块目前还在开发之中 | <a href='https://github.com/EdikKing/hexhub' target='_blank'>⭐ 432</a> |
 | PixivUserBatchDownlo<br>ad | P站画师个人作品批量下载工具，UserScript + Aria2。可<br>高度自定义重命名，发送到本地或远程(如路由器)下载。 | <a href='https://github.com/Mapaler/PixivUserBatchDownload' target='_blank'>⭐ 1.2K</a> |
-| Remove-MS-Edge | Uninstall Microsoft Edge with an ex<br>ecutable or batch script.<br><br><i<br>>（翻译失败）</i> | <a href='https://github.com/ShadowWhisperer/Remove-MS-Edge' target='_blank'>⭐ 5.2K</a> |
+| Remove-MS-Edge | Uninstall Microsoft Edge with an ex<br>ecutable or batch script.<br><br><i<br>>通过可执行文件或批处理脚本卸载 Microsoft Edge....<br></i> | <a href='https://github.com/ShadowWhisperer/Remove-MS-Edge' target='_blank'>⭐ 5.2K</a> |
 | ecs | VPS 融合怪服务器测评项目 更推荐使用无环境依赖的Go版本 VPS <br>Fusion Monster Server Test Script –<br> More recommended to use the Go ver<br>sion with no environment dependenci<br>es: https://github.com/oneclickvirt<br>/ecs | <a href='https://github.com/spiritLHLS/ecs' target='_blank'>⭐ 7.0K</a> |
 | bilijump-ai | 一个使用 AI 自动跳过 Bilibili 视频植入广告的扩展程序。 | <a href='https://github.com/qingmeng1/bilijump-ai' target='_blank'>⭐ 422</a> |
 | ChatGPT-Next-Web-Lan<br>gChain | 一键拥有你自己的 ChatGPT 网页服务。 One-Click to<br> deploy your own ChatGPT web UI.（基于<br> langchain 实现的插件版本 Plugin version i<br>mplemented based on langchain） | <a href='https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain' target='_blank'>⭐ 1.2K</a> |
-| new-api | A unified AI model hub for aggregat<br>ion & distribution. It supports cro<br>ss-converting various LLMs into Ope<br>nAI-compatible, Claude-compatible, <br>or Gemini-compatible formats. A cen<br>tralized gateway for personal and e<br>nterprise model management. 🍥 | <a href='https://github.com/QuantumNous/new-api' target='_blank'>⭐ 39.3K</a> |
-| mtg | Highly opinionated MTPROTO proxy fo<br>r Telegram<br><br><i>（翻译失败）</i> | <a href='https://github.com/9seconds/mtg' target='_blank'>⭐ 3.6K</a> |
+| new-api | A unified AI model hub for aggregat<br>ion & distribution. It supports cro<br>ss-converting various LLMs into Ope<br>nAI-compatible, Claude-compatible, <br>or Gemini-compatible formats. A cen<br>tralized gateway for personal and e<br>nterprise model management. 🍥 | <a href='https://github.com/QuantumNous/new-api' target='_blank'>⭐ 39.4K</a> |
+| mtg | Highly opinionated MTPROTO proxy fo<br>r Telegram<br><br><i>这里有几种翻译方式，具体取决<br>于语境和想要强调的侧重点：  1.  **设计理念鲜明的 Telegr<br>am MTPROTO 代理...**     *   这是最常用且专业<br>的翻译，强调该代理有自己一套明确、强烈的（甚至是不妥协的）设计原则和实<br>现方式。  2.  **具有强烈设计主张的 Telegram MTPR<br>OTO 代理...**     *   与第一种类似，更强调其在设计上<br>的“主张”或“立场”。  3.  **高度主观的 Telegram M<br>TPROTO 代理...**     *   这是比较直接的字面翻译，<br>但“主观”在中文中有时会带有一点贬义，暗示不客观或个人化，在技术语境下<br>可能不如“设计理念鲜明”贴切。  **推荐翻译：**  **设计理念鲜<br>明的 Telegram MTPROTO 代理...**</i> | <a href='https://github.com/9seconds/mtg' target='_blank'>⭐ 3.6K</a> |
 | Yunzai | Yunzai 应用端，支持多账号，支持协议端：go-cqhttp、Co<br>mWeChat、GSUIDCore、ICQQ、QQBot、QQ频道、微<br>信、KOOK、Telegram、Discord | <a href='https://github.com/TimeRainStarSky/Yunzai' target='_blank'>⭐ 599</a> |
 | Yunzai-Bot-plugins-i<br>ndex | Yunzai-Bot云崽QQ机器人插件索引 | <a href='https://github.com/yhArcadia/Yunzai-Bot-plugins-index' target='_blank'>⭐ 1.2K</a> |
-| LinkSwift | 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘<br>直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 <br>/ 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘<br> 八大网盘 | <a href='https://github.com/hmjz100/LinkSwift' target='_blank'>⭐ 16.8K</a> |
+| LinkSwift | 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘<br>直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 <br>/ 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘<br> 八大网盘 | <a href='https://github.com/hmjz100/LinkSwift' target='_blank'>⭐ 16.9K</a> |
 | telegram-msg-forward<br>er | 一个功能强大的Telegram机器人，能够转发指定链接的消息，支持随机<br>消息获取和批量消息管理。 | <a href='https://github.com/cubezhao/telegram-msg-forwarder' target='_blank'>⭐ 57</a> |
 | TelegramForwarder | 一个功能强大的 Telegram 消息转发器，支持多源转发、关键词过滤<br>、正则替换、RSS订阅，AI处理，多平台推送等功能。 | <a href='https://github.com/Heavrnl/TelegramForwarder' target='_blank'>⭐ 1.1K</a> |
 | ok-wuthering-waves | 鸣潮 后台自动战斗 自动刷声骸 一键日常  Automation fo<br>r Wuthering Waves | <a href='https://github.com/ok-oldking/ok-wuthering-waves' target='_blank'>⭐ 6.5K</a> |
 | MobaXterm-Chinese-Si<br>mplified | MobaXterm 简体中文汉化版🌏🖥🖥🖥 【💌慢工精心制作，"提示"<br>也汉化💻】 【😍控件布局精细调整】 | <a href='https://github.com/RipplePiam/MobaXterm-Chinese-Simplified' target='_blank'>⭐ 7.0K</a> |
-| 3x-ui | Xray panel supporting multi-protoco<br>l multi-user expire day & traffic &<br> IP limit (Vmess, Vless, Trojan, Sh<br>adowSocks, Wireguard, Hysteria, Tun<br>nel, Mixed, HTTP, Tun) <br><br><i>（<br>翻译失败）</i> | <a href='https://github.com/MHSanaei/3x-ui' target='_blank'>⭐ 41.0K</a> |
+| 3x-ui | Xray panel supporting multi-protoco<br>l multi-user expire day & traffic &<br> IP limit (Vmess, Vless, Trojan, Sh<br>adowSocks, Wireguard, Hysteria, Tun<br>nel, Mixed, HTTP, Tun) <br><br><i>X<br>ray 面板支持多协议、多用户，并提供到期日、流量和IP限制功能（Vm<br>ess、Vless、Trojan、ShadowSocks、Wiregu<br>ard、Hysteria、Tunnel、Mixed、HTTP、Tun）<br>...</i> | <a href='https://github.com/MHSanaei/3x-ui' target='_blank'>⭐ 41.0K</a> |
 | IDM-Activation-Scrip<br>t | An open source tool to activate and<br> reset trial of Internet Download M<br>anager<br><br><i>（翻译失败）</i> | <a href='https://github.com/WindowsAddict/IDM-Activation-Script' target='_blank'>⭐ 7.6K</a> |
 | mc_auto_boss | 鸣潮后台自动刷BOSS声骸 没弃坑，程序已升级，请前往新项目 http<br>s://github.com/wakening/WutheringWa<br>vesAssistant | <a href='https://github.com/wakening/mc_auto_boss' target='_blank'>⭐ 30</a> |
 | Bilibili-Evolved | 强大的哔哩哔哩增强脚本 | <a href='https://github.com/the1812/Bilibili-Evolved' target='_blank'>⭐ 29.6K</a> |
-| tabby | A terminal for a more modern age<br<br>><br><i>**面向新时代的终端...**  或者，也可以说： *<br>   **为更现代的时代而设计的终端...** *   **与时俱进的<br>终端...** *   **专为新时代打造的终端...**</i> | <a href='https://github.com/Eugeny/tabby' target='_blank'>⭐ 72.2K</a> |
-| WuWa-Configs | WuWa configs to improve visuals or <br>performance<br><br><i>WuWa 配置，以提升画面<br>或性能...</i> | <a href='https://github.com/AlteriaX/WuWa-Configs' target='_blank'>⭐ 1.6K</a> |
+| tabby | A terminal for a more modern age<br<br>><br><i>**一款面向更现代时代的终端。**  或者： **为新<br>时代而生的终端。** (更具宣传语风格)</i> | <a href='https://github.com/Eugeny/tabby' target='_blank'>⭐ 72.2K</a> |
+| WuWa-Configs | WuWa configs to improve visuals or <br>performance<br><br><i>以下是几种翻译方式，具体取<br>决于语境：  1.  **鸣潮画面或性能优化配置...** (这是最常<br>见且自然的翻译，假设"WuWa"指的是游戏《鸣潮》，且"configs<br>"是优化配置的意思。) 2.  **WuWa配置，用于提升画面或性能.<br>..** (保留"WuWa"原文，更直接地翻译"to improve"<br>。) 3.  **WuWa设置，以改善视觉效果或性能...** (使用<br>"设置"代替"配置"，"视觉效果"代替"画面"，更通用一些。)  我会<br>推荐第一种，因为它更符合游戏社区的常用表达，并且假设"WuWa"指的是<br>《鸣潮》（Wuthering Waves）。</i> | <a href='https://github.com/AlteriaX/WuWa-Configs' target='_blank'>⭐ 1.6K</a> |
 | MingChaoSign | 鸣潮与社区签到 | <a href='https://github.com/Maojuan-lang/MingChaoSign' target='_blank'>⭐ 8</a> |
 | mc_auto_boss | 鸣潮后台自动刷BOSS声骸 | <a href='https://github.com/lazydog28/mc_auto_boss' target='_blank'>⭐ 736</a> |
 | MobileModels | 手机品牌型号汇总 ｜ Mobile Models ｜ This rep<br>ository is licensed under CC BY-NC-<br>SA 4.0 | <a href='https://github.com/KHwang9883/MobileModels' target='_blank'>⭐ 4.2K</a> |
 | openwrt-Exclusive | 暂无描述 | <a href='https://github.com/firkerword/openwrt-Exclusive' target='_blank'>⭐ 193</a> |
-| NetworkPanel | 测试您的网速，多出口查询您的ip地址 | <a href='https://github.com/ljxi/NetworkPanel' target='_blank'>⭐ 944</a> |
+| NetworkPanel | 测试您的网速，多出口查询您的ip地址 | <a href='https://github.com/ljxi/NetworkPanel' target='_blank'>⭐ 945</a> |
 | guoba-plugin | Yunzai-Bot的插件，主要提供后台管理界面。 | <a href='https://github.com/guoba-yunzai/guoba-plugin' target='_blank'>⭐ 236</a> |
 | Qsign | Windows的一键搭建签名api | <a href='https://github.com/touchscale/Qsign' target='_blank'>⭐ 191</a> |
 | Miao-Yunzai | 喵版Yunzai-V3 | <a href='https://github.com/yoimiya-kokomi/Miao-Yunzai' target='_blank'>⭐ 1.1K</a> |
@@ -98,27 +100,27 @@
 | gpt_academic | 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读<br>/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Pyt<br>hon和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结<br>功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入<br>通义千问, deepseekcoder, 讯飞星火, 文心一言, ll<br>ama2, rwkv, claude2, moss等。 | <a href='https://github.com/binary-husky/gpt_academic' target='_blank'>⭐ 70.9K</a> |
 | NextChat | ✨ Light and Fast AI Assistant. Supp<br>ort: Web ｜ iOS ｜ MacOS ｜ Android ｜ <br> Linux ｜ Windows | <a href='https://github.com/ChatGPTNextWeb/NextChat' target='_blank'>⭐ 88.3K</a> |
 | Are-u-ok | KoolCenter iStore .run Packages<br><br><br><i>KoolCenter iStore 运行软件包...</<br>i> | <a href='https://github.com/bcseputetto/Are-u-ok' target='_blank'>⭐ 2.1K</a> |
-| WutheringWaves | Wuthering Waves ps (0.9.0)<br><br><<br>i>以下是几种可能的翻译，具体取决于“ps”在此语境中的确切含义：  <br>1.  **如果“ps”指“公测服”（Public Test Serv<br>er）或“公共服务器”：**     鸣潮 公测服 (0.9.0)..<br>.     *(这是在游戏开发阶段，版本号为0.9.0时，一个非常合理<br>的推测。)*  2.  **如果“ps”指“PlayStation”平<br>台（通常会写成大写“PS”）：**     鸣潮 PS版 (0.9.0<br>)...     *(尽管《鸣潮》主要在PC和移动端，但PlaySta<br>tion版本也在计划中。)*  3.  **如果“ps”是“附注”或“<br>备注”（Postscript）的缩写：**     鸣潮 附注 (0.<br>9.0)...     或直接保留：     鸣潮 ps (0.9.0<br>)...  4.  **如果“ps”是“私服”（Private Ser<br>ver）的缩写：**     鸣潮 私服 (0.9.0)...  **<br>推荐翻译（基于游戏版本号0.9.0通常代表测试阶段的语境）：**  *<br>*鸣潮 公测服 (0.9.0)...**</i> | <a href='https://github.com/thexeondev/WutheringWaves' target='_blank'>⭐ 253</a> |
+| WutheringWaves | Wuthering Waves ps (0.9.0)<br><br><<br>i>鸣潮 PS版 (0.9.0)...  **说明 (Optional<br> Note):** 请注意，截至目前（2024年5月），游戏《鸣潮》尚<br>未在PlayStation平台发布，主要平台为PC、iOS和Andro<br>id。这里的“ps”可能是笔误，或指其他含义。</i> | <a href='https://github.com/thexeondev/WutheringWaves' target='_blank'>⭐ 253</a> |
 | Cimoc | 漫画阅读器 | <a href='https://github.com/Haleydu/Cimoc' target='_blank'>⭐ 3.8K</a> |
-| hysteria | Hysteria is a powerful, lightning f<br>ast and censorship resistant proxy.<br><br><br><i>Hysteria 是一个强大、极速且抗审查的代理<br>工具……</i> | <a href='https://github.com/apernet/hysteria' target='_blank'>⭐ 21.8K</a> |
+| hysteria | Hysteria is a powerful, lightning f<br>ast and censorship resistant proxy.<br><br><br><i>Hysteria 是一个强大、极速且抗审查的代理<br>...</i> | <a href='https://github.com/apernet/hysteria' target='_blank'>⭐ 21.9K</a> |
 | cook | 🍲 好的，今天我们来做菜！OK, Let's Cook! | <a href='https://github.com/YunYouJun/cook' target='_blank'>⭐ 6.4K</a> |
 | Are-u-ok | 暂无描述 | <a href='https://github.com/AUK9527/Are-u-ok' target='_blank'>⭐ 13.8K</a> |
-| vits-simple-api | A simple VITS HTTP API, developed b<br>y extending Moegoe with additional <br>features.<br><br><i>一个简单的 VITS HTTP<br> API，通过扩展 Moegoe 并增加额外功能而开发。</i> | <a href='https://github.com/Artrajz/vits-simple-api' target='_blank'>⭐ 1.0K</a> |
+| vits-simple-api | A simple VITS HTTP API, developed b<br>y extending Moegoe with additional <br>features.<br><br><i>（翻译失败）</i> | <a href='https://github.com/Artrajz/vits-simple-api' target='_blank'>⭐ 1.0K</a> |
 | TTSModels | 暂无描述 | <a href='https://github.com/CjangCjengh/TTSModels' target='_blank'>⭐ 625</a> |
 | Aoki | Mirai 一键登录处理器 (现已不可用于登录，请使用签名服务) | <a href='https://github.com/MrXiaoM/Aoki' target='_blank'>⭐ 231</a> |
-| AstrBot | AI Agent Assistant & development fr<br>amework that integrates lots of IM <br>platforms, LLMs, plugins and AI fea<br>ture, and can be your openclaw alte<br>rnative. ✨ | <a href='https://github.com/AstrBotDevs/AstrBot' target='_blank'>⭐ 34.9K</a> |
+| AstrBot | AI Agent Assistant & development fr<br>amework that integrates lots of IM <br>platforms, LLMs, plugins and AI fea<br>ture, and can be your openclaw alte<br>rnative. ✨ | <a href='https://github.com/AstrBotDevs/AstrBot' target='_blank'>⭐ 35.0K</a> |
 | kirara-ai | 🤖 可 DIY 的 多模态 AI 聊天机器人 ｜ 🚀 快速接入 微信、<br> QQ、Telegram、等聊天平台 ｜ 🦈支持DeepSeek、Gr<br>ok、Claude、Ollama、Gemini、OpenAI ｜ 工作<br>流系统、网页搜索、AI画图、人设调教、虚拟女仆、语音对话 ｜ | <a href='https://github.com/lss233/kirara-ai' target='_blank'>⭐ 18.8K</a> |
-| chatbox | Powerful AI Client<br><br><i>（翻译失败）<br></i> | <a href='https://github.com/chatboxai/chatbox' target='_blank'>⭐ 40.5K</a> |
+| chatbox | Powerful AI Client<br><br><i>（翻译失败）<br></i> | <a href='https://github.com/chatboxai/chatbox' target='_blank'>⭐ 40.6K</a> |
 | auto_wjx | 不会有人连问卷星都要弄虚作假吧 | <a href='https://github.com/Lihewin/auto_wjx' target='_blank'>⭐ 4</a> |
 | chatGPTBox | Integrating ChatGPT into your brows<br>er deeply, everything you need is h<br>ere<br><br><i>（翻译失败）</i> | <a href='https://github.com/ChatGPTBox-dev/chatGPTBox' target='_blank'>⭐ 10.7K</a> |
 | qBittorrent-Enhanced<br>-Edition | [Unofficial] qBittorrent Enhanced, <br>based on qBittorrent<br><br><i>（翻译失<br>败）</i> | <a href='https://github.com/c0re100/qBittorrent-Enhanced-Edition' target='_blank'>⭐ 26.0K</a> |
 | warp.sh | Cloudflare WARP Installer ｜ WARP 一键<br>安装脚本 | <a href='https://github.com/P3TERX/warp.sh' target='_blank'>⭐ 3.9K</a> |
 | docker.ui | 暂无描述 | <a href='https://github.com/gohutool/docker.ui' target='_blank'>⭐ 807</a> |
-| chatgpt-web | Pure Javascript ChatGPT demo based <br>on OpenAI API<br><br><i>基于 OpenAI A<br>PI 的纯 JavaScript ChatGPT 演示...</i> | <a href='https://github.com/xqdoo00o/chatgpt-web' target='_blank'>⭐ 1.0K</a> |
+| chatgpt-web | Pure Javascript ChatGPT demo based <br>on OpenAI API<br><br><i>（翻译失败）</i> | <a href='https://github.com/xqdoo00o/chatgpt-web' target='_blank'>⭐ 1.0K</a> |
 | chatgpt-web | 基于ChatGPT3.5 API实现的私有化web程序 | <a href='https://github.com/869413421/chatgpt-web' target='_blank'>⭐ 3.1K</a> |
 | chatgptProxyAPI | 🔥 使用cloudflare 搭建免费的 OpenAI api代理 ，<br>解决网络无法访问问题。支持流式输出 | <a href='https://github.com/x-dr/chatgptProxyAPI' target='_blank'>⭐ 3.0K</a> |
 | Movie_Data_Capture | Local Movies Organizer<br><br><i>（翻<br>译失败）</i> | <a href='https://github.com/mvdctop/Movie_Data_Capture' target='_blank'>⭐ 7.4K</a> |
-| qb_rclone | A personal testing record.<br><br><<br>i>（翻译失败）</i> | <a href='https://github.com/feodorren/qb_rclone' target='_blank'>⭐ 23</a> |
+| qb_rclone | A personal testing record.<br><br><<br>i>一份个人测试记录...</i> | <a href='https://github.com/feodorren/qb_rclone' target='_blank'>⭐ 23</a> |
 | Anime-Repository | Elegant Smart Scraper<br><br><i>（翻译<br>失败）</i> | <a href='https://github.com/Chikage0o0/Anime-Repository' target='_blank'>⭐ 210</a> |
 | awesome-chatgpt-api | Curated list of apps and tools that<br> not only use the new ChatGPT API, <br>but also allow users to configure t<br>heir own API keys, enabling free an<br>d on-demand usage of their own quot<br>a.<br><br><i>（翻译失败）</i> | <a href='https://github.com/reorx/awesome-chatgpt-api' target='_blank'>⭐ 6.4K</a> |
 | nextai-translator | 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用 <br>   -    Browser extension and cross<br>-platform desktop application for t<br>ranslation based on ChatGPT API. | <a href='https://github.com/nextai-translator/nextai-translator' target='_blank'>⭐ 24.9K</a> |
@@ -129,18 +131,18 @@
 | ChineseSubFinder | 自动化中文字幕下载。字幕网站支持 shooter、xunlei、arr<br>st、a4k、SubtitleBest 。支持 Emby、Jellyf<br>in、Plex、Sonarr、Radarr、TMM | <a href='https://github.com/ChineseSubFinder/ChineseSubFinder' target='_blank'>⭐ 3.9K</a> |
 | CasaOS | CasaOS - A simple, easy-to-use, ele<br>gant open-source Personal Cloud sys<br>tem.<br><br><i>（翻译失败）</i> | <a href='https://github.com/IceWhaleTech/CasaOS' target='_blank'>⭐ 34.1K</a> |
 | nas-tools | NAS媒体库管理工具 | <a href='https://github.com/NAStool/nas-tools' target='_blank'>⭐ 9.0K</a> |
-| nas-tools | A fork of NAStool/nas-tools:2.9.1<b<br>r><br><i>（翻译失败）</i> | <a href='https://github.com/receyuki/nas-tools' target='_blank'>⭐ 494</a> |
+| nas-tools | A fork of NAStool/nas-tools:2.9.1<b<br>r><br><i>NAStool/nas-tools 2.9.1 的一<br>个分支/分叉...  **解释：** *   **fork** 在软件<br>开发中通常指“分叉”或“分支”，表示从一个现有项目复制一份代码，然后独<br>立开发。 *   **NAStool/nas-tools** 是项目名<br>称。 *   **:2.9.1** 表示版本号。  因此，最自然的翻译<br>是“NAStool/nas-tools 2.9.1 的一个分支/分叉.<br>..”。在GitHub等平台语境下，"分叉" (fork) 更为常见和<br>准确。</i> | <a href='https://github.com/receyuki/nas-tools' target='_blank'>⭐ 494</a> |
 | WindTerm | A professional cross-platform SSH/S<br>ftp/Shell/Telnet/Tmux/Serial termin<br>al.<br><br><i>（翻译失败）</i> | <a href='https://github.com/kingToolbox/WindTerm' target='_blank'>⭐ 31.4K</a> |
 | Ehviewer_CN_SXJ | ehviewer，用爱发电，快乐前行 | <a href='https://github.com/xiaojieonly/Ehviewer_CN_SXJ' target='_blank'>⭐ 24.7K</a> |
 | JdBuyer | 京东抢购自动下单助手，GUI 支持 Windows 和 macOS | <a href='https://github.com/zas023/JdBuyer' target='_blank'>⭐ 4.2K</a> |
 | QLDependency | 青龙面板全依赖一键安装脚本 / Qinglong Pannel Dep<br>endency Install Scripts. | <a href='https://github.com/FlechazoPh/QLDependency' target='_blank'>⭐ 2.2K</a> |
 | Android-DataBackup | DataBackup for Android 7.0+<br><br><br><i>（翻译失败）</i> | <a href='https://github.com/XayahSuSuSu/Android-DataBackup' target='_blank'>⭐ 6.9K</a> |
-| HelloGitHub | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Sh<br>are interesting, entry-level open s<br>ource projects on GitHub. | <a href='https://github.com/521xueweihan/HelloGitHub' target='_blank'>⭐ 161.9K</a> |
+| HelloGitHub | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Sh<br>are interesting, entry-level open s<br>ource projects on GitHub. | <a href='https://github.com/521xueweihan/HelloGitHub' target='_blank'>⭐ 162.0K</a> |
 | linux-command | Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜<br>集。https://git.io/linux | <a href='https://github.com/jaywcjlove/linux-command' target='_blank'>⭐ 36.3K</a> |
 | qinglong | 支持 Python3、JavaScript、Shell、Typescr<br>ipt 的定时任务管理平台（Timed task management<br> platform supporting Python3, JavaS<br>cript, Shell, Typescript） | <a href='https://github.com/whyour/qinglong' target='_blank'>⭐ 19.6K</a> |
 | Bulk-Crap-Uninstalle<br>r | Remove large amounts of unwanted ap<br>plications quickly.<br><br><i>（翻译失败<br>）</i> | <a href='https://github.com/BCUninstaller/Bulk-Crap-Uninstaller' target='_blank'>⭐ 19.8K</a> |
 | NeverIdle | 资源定期浪费，可用于 Oracle 甲骨文保活。 | <a href='https://github.com/layou233/NeverIdle' target='_blank'>⭐ 955</a> |
-| Cloud-N1-OpenWrt | Github Actions 自动编译 OpenWrt 固件（适配 P<br>hicomm N1） | <a href='https://github.com/huangqian8/Cloud-N1-OpenWrt' target='_blank'>⭐ 312</a> |
+| Cloud-N1-OpenWrt | Github Actions 自动编译 OpenWrt 固件（适配 P<br>hicomm N1） | <a href='https://github.com/huangqian8/Cloud-N1-OpenWrt' target='_blank'>⭐ 313</a> |
 | Kwrt | openwrt 软路由固件 | <a href='https://github.com/kiddin9/Kwrt' target='_blank'>⭐ 8.9K</a> |
 | small-package | 自动同步更新上游库软件 | <a href='https://github.com/kenzok8/small-package' target='_blank'>⭐ 1.7K</a> |
 | telegram_channel_dow<br>nloader | telegram chanle file(image,video,fi<br>le``) donnload<br><br><i>（翻译失败）</i> | <a href='https://github.com/kuaizi/telegram_channel_downloader' target='_blank'>⭐ 67</a> |
@@ -152,7 +154,7 @@
 | ms-ra-forwarder | 暂无描述 | <a href='https://github.com/rogueme/ms-ra-forwarder' target='_blank'>⭐ 93</a> |
 | java_oci_manage | Web SSH Smart Terminal for multi-cl<br>oud management (OCI / AWS / GCP / A<br>zure / DO / SolusVM /VirtFusion), w<br>ith cloud panel, Telegram bot, and <br>Cloudflare integration — 面向多云管理的 We<br>b SSH 智能终端，集成云管理面板、Telegram 机器人与Clo<br>udflare | <a href='https://github.com/semicons/java_oci_manage' target='_blank'>⭐ 2.0K</a> |
 | autoplan | 这是一个自动化的托管系统，目前支持bilibili，米游社原神星铁等签<br>到 | <a href='https://github.com/wyt1215819315/autoplan' target='_blank'>⭐ 673</a> |
-| HowToCook | Programmer's guide about how to coo<br>k at home.<br><br><i>（翻译失败）</i> | <a href='https://github.com/Anduin2017/HowToCook' target='_blank'>⭐ 100.8K</a> |
+| HowToCook | Programmer's guide about how to coo<br>k at home.<br><br><i>（翻译失败）</i> | <a href='https://github.com/Anduin2017/HowToCook' target='_blank'>⭐ 100.9K</a> |
 | alist | 🗂️A file list/WebDAV program that s<br>upports multiple storages, powered <br>by Gin and Solidjs. / 一个支持多存储的文件列表/<br>WebDAV程序，使用 Gin 和 Solidjs。 | <a href='https://github.com/AlistGo/alist' target='_blank'>⭐ 49.7K</a> |
 | trojan-go | Go实现的Trojan代理，支持多路复用/路由功能/CDN中转/Sha<br>dowsocks混淆插件，多平台，无依赖。A Trojan proxy<br> written in Go. An unidentifiable m<br>echanism that helps you bypass GFW.<br> https://p4gefau1t.github.io/trojan<br>-go/ | <a href='https://github.com/p4gefau1t/trojan-go' target='_blank'>⭐ 8.4K</a> |
 | trojan | trojan多用户管理部署程序, 支持web页面管理 | <a href='https://github.com/Jrohy/trojan' target='_blank'>⭐ 5.7K</a> |
