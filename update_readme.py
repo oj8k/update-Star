@@ -2,7 +2,7 @@ import os
 import requests
 from github import Github, Auth
 
-# ✅ ChatGPT 翻译函数（支持自定义模型和 API 地址）
+# ✅ 修改后的 ChatGPT 翻译函数
 def chatgpt_translate(text):
     api_url = os.getenv("CHATGPT_API_URL", "https://api.openai.com/v1/chat/completions")
     model = os.getenv("CHATGPT_MODEL", "gpt-3.5-turbo")
@@ -13,7 +13,9 @@ def chatgpt_translate(text):
         "Content-Type": "application/json"
     }
 
-    prompt = f"请将以下英文翻译成中文：\n{text[:500]}..."
+    # 稍微优化一下 prompt 拼接，避免切片影响结构
+    clean_text = text[:500]
+    prompt = f"请将以下英文翻译成中文：\n{clean_text}"
 
     payload = {
         "model": model,
@@ -26,12 +28,24 @@ def chatgpt_translate(text):
 
     try:
         response = requests.post(api_url, headers=headers, json=payload, timeout=20)
-        response.raise_for_status()
+        
+        # 如果状态码不是 200，先不急着 raise_for_status，先打印出接口返回了什么
+        if response.status_code != 200:
+            print(f"❌ API 请求失败，状态码: {response.status_code}")
+            print(f"❌ 接口返回内容: {response.text}")
+            response.raise_for_status()
+
+        # 尝试解析 JSON
         result = response.json()
         return result["choices"][0]["message"]["content"].strip()
+        
+    except requests.exceptions.JSONDecodeError:
+        print(f"⚠️ ChatGPT 响应解析 JSON 失败！")
+        print(f"真实返回的非 JSON 内容为: \n{response.text}")
+        return "（翻译解析失败）"
     except Exception as e:
-        print(f"⚠️ ChatGPT 翻译失败：{e}")
-        print(f"失败内容：{text}")
+        print(f"⚠️ ChatGPT 翻译发生其他错误：{e}")
+        print(f"失败原始内容：{text}")
         return "（翻译失败）"
 
 # ✅ 英文检测函数
