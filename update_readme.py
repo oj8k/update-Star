@@ -10,7 +10,11 @@ def chatgpt_translate(text):
 
     headers = {
         "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        # ⬇️ 新增以下三行伪装头部 ⬇️
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
     }
 
     # 稍微优化一下 prompt 拼接，避免切片影响结构
