@@ -12,10 +12,14 @@
 #    OPENAI_API_KEY  - ChatGPT API Key（留空则跳过翻译）
 #    CHATGPT_API_URL - ChatGPT API 地址（默认: https://api.openai.com/v1/chat/completions）
 #    CHATGPT_MODEL   - ChatGPT 模型（默认: gpt-3.5-turbo）
+#    TRANSLATE_DELAY - 翻译间隔秒数（默认: 0.5，避免 API 限流）
+#    TRANSLATION_CACHE - 翻译缓存文件路径（默认: translations.json）
 #
 #  【功能说明】
 #    - 自动获取 GitHub Star 列表并生成 README.md 表格
 #    - 纯英文描述自动翻译为中文；已有中文的跳过翻译
+#    - 翻译缓存：已翻译过的描述不再重复调用 API，节省配额并避免限流
+#    - 429 限流时自动指数退避重试
 #    - 翻译失败时只显示原文，不显示错误信息
 #    - 自动去重（按项目 URL）
 #
@@ -27,14 +31,46 @@
 #
 # ===========================================
 
+import json
 import os
+import time
+
 import requests
 from github import Github, Auth
 
 
+# ─── 翻译缓存 ─────────────────────────────────
+CACHE_FILE = os.getenv("TRANSLATION_CACHE", "translations.json")
+
+
+def load_cache():
+    """加载翻译缓存，返回 {原文: 翻译} 字典"""
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"  ⚠️  加载缓存失败: {e}")
+    return {}
+
+
+def save_cache(cache):
+    """保存翻译缓存到文件"""
+    try:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"  ⚠️  保存缓存失败: {e}")
+
+
 # ─── ChatGPT 翻译 ─────────────────────────────
-def chatgpt_translate(text):
-    """调用 ChatGPT API 将英文翻译为中文，失败返回空字符串"""
+def chatgpt_translate(text, cache):
+    """调用 ChatGPT API 翻译，失败返回空字符串；缓存命中则直接返回"""
+    # 1. 先查缓存
+    if text in cache:
+        print(f"      💾 使用缓存翻译")
+        return cache[text]
+
     api_url = os.getenv("CHATGPT_API_URL", "https://api.openai.com/v1/chat/completions")
     model = os.getenv("CHATGPT_MODEL", "gpt-3.5-turbo")
     api_key = os.getenv("OPENAI_API_KEY", "")
@@ -56,13 +92,27 @@ def chatgpt_translate(text):
         "temperature": 0.3,
     }
 
-    try:
-        resp = requests.post(api_url, headers=headers, json=payload, timeout=30)
-        resp.raise_for_status()
-        return resp.json()["choices"][0]["message"]["content"].strip()
-    except Exception as e:
-        print(f"  ⚠️  翻译失败: {e}")
-        return ""
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            resp = requests.post(api_url, headers=headers, json=payload, timeout=30)
+            if resp.status_code == 429:
+                # 429 限流：指数退避后重试
+                wait = 2 ** attempt + 1
+                print(f"      ⚠️  API 限流（429），等待 {wait} 秒后重试... ({attempt + 1}/{max_retries})")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            translated = resp.json()["choices"][0]["message"]["content"].strip()
+            cache[text] = translated  # 写入缓存
+            return translated
+        except Exception as e:
+            print(f"      ⚠️  翻译失败: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2)
+            else:
+                return ""
+    return ""
 
 
 # ─── 中文检测 ─────────────────────────────────
@@ -104,7 +154,6 @@ def clean_desc(desc, max_len=120):
         .replace("|", "｜")
         .strip()
     )
-    # 压缩连续空格
     while "  " in desc:
         desc = desc.replace("  ", " ")
 
@@ -135,6 +184,7 @@ def fmt_stars(count):
 def main():
     token = os.getenv("GH_TOKEN")
     username = os.getenv("GH_USERNAME", "oj8k")
+    translate_delay = float(os.getenv("TRANSLATE_DELAY", "3.5"))
 
     if not token:
         raise ValueError("❌ 未设置 GH_TOKEN 环境变量")
@@ -144,7 +194,9 @@ def main():
     user = g.get_user(username)
     starred = list(user.get_starred())
 
+    cache = load_cache()
     seen = set()
+
     lines = [
         "# 🌟 我的 GitHub Star 项目\n",
         "本仓库通过 GitHub Actions 自动同步我的 GitHub Star 项目列表，并生成 README 表格。\n",
@@ -156,7 +208,9 @@ def main():
         "| `GH_USERNAME` | ✅ | GitHub 用户名，例如 `oj8k` |",
         "| `OPENAI_API_KEY` | ❌ | ChatGPT API Key，用于翻译纯英文项目描述 |",
         "| `CHATGPT_API_URL` | ❌ | ChatGPT API 地址，默认 `https://api.openai.com/v1/chat/completions` |",
-        "| `CHATGPT_MODEL` | ❌ | ChatGPT 模型，默认 `gpt-3.5-turbo` |\n",
+        "| `CHATGPT_MODEL` | ❌ | ChatGPT 模型，默认 `gpt-3.5-turbo` |",
+        "| `TRANSLATE_DELAY` | ❌ | 翻译间隔秒数，默认 `0.5` |",
+        "| `TRANSLATION_CACHE` | ❌ | 翻译缓存文件路径，默认 `translations.json` |\n",
         "## ⚡ 触发方式\n",
         "- 手动触发：仓库 Actions → 自动更新星标项目 → Run workflow\n",
         "- 自动触发：每天 UTC 00:00（北京时间 08:00）运行一次\n",
@@ -173,20 +227,16 @@ def main():
         seen.add(repo.html_url)
 
         name = fmt_name(repo.name)
-
-        # 清理原始描述（去掉已有 <br>，截断超长文本，不加新 <br>）
         desc_raw = clean_desc(repo.description or "暂无描述")
 
-        # 只有纯英文才翻译
         if needs_translation(desc_raw):
             print(f"  🔄 翻译: {repo.name}")
-            desc_cn = chatgpt_translate(desc_raw)
+            desc_cn = chatgpt_translate(desc_raw, cache)
             if desc_cn:
-                # 原文和翻译之间只用一个 <br>，翻译紧跟原文，无空白
-                desc_final = f"{desc_raw}<br><i>{desc_cn}</i>"
+                desc_final = f"{desc_raw}<br>{desc_cn}"
             else:
-                # 翻译失败 → 只显示原文，不显示错误信息
                 desc_final = desc_raw
+            time.sleep(translate_delay)  # 控制 API 请求频率
         else:
             print(f"  ✅ 跳过翻译: {repo.name}")
             desc_final = desc_raw
@@ -199,7 +249,10 @@ def main():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
+    save_cache(cache)
+
     print(f"\n✅ README.md 生成完成！共 {len(seen)} 个项目")
+    print(f"💾 翻译缓存已保存到 {CACHE_FILE}")
 
 
 if __name__ == "__main__":
