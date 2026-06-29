@@ -184,7 +184,7 @@ def fmt_stars(count):
 def main():
     token = os.getenv("GH_TOKEN")
     username = os.getenv("GH_USERNAME", "oj8k")
-    translate_delay = float(os.getenv("TRANSLATE_DELAY", "3.5"))
+    translate_delay = float(os.getenv("TRANSLATE_DELAY", "0.5"))
 
     if not token:
         raise ValueError("❌ 未设置 GH_TOKEN 环境变量")
