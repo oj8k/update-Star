@@ -169,7 +169,7 @@ def main():
             desc_cn = chatgpt_translate(desc_raw)
             if desc_cn:
                 # 原文和翻译之间只用一个 <br>，翻译紧跟原文，无空白
-                desc_final = f"{desc_raw}<br><i>{desc_cn}</i>"
+                desc_final = f"{desc_raw}<br>{desc_cn}"
             else:
                 # 翻译失败 → 只显示原文，不显示错误信息
                 desc_final = desc_raw
