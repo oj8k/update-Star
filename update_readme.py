@@ -127,15 +127,53 @@ def needs_translation(text):
 
 
 # ─── 项目名称 ─────────────────────────────────
-def fmt_name(name, max_len=20):
+def fmt_name(name, max_len=18):
     """
-    项目名称格式化：
-    - 不超过 max_len 直接返回
-    - 超长则截断加 ...，不换行
+    项目名称格式化（自动换行，优先在单词边界断行）：
+    - 每行不超过 max_len 字符
+    - 优先在空格处断行，保持单词完整
+    - 单个超长单词（无空格）强制按字符数断行
+    - 最多 3 行，超出则第 3 行截断加 ...
     """
+    name = name.strip()
     if len(name) <= max_len:
         return name
-    return name[: max_len - 3] + "..."
+
+    lines = []
+    # 先按单词处理
+    words = name.split()
+    current = ""
+
+    for w in words:
+        # 当前行还能放下这个单词
+        if len(current) + len(w) + (1 if current else 0) <= max_len:
+            current += (" " if current else "") + w
+        else:
+            # 放不下：保存当前行，新单词另起一行
+            if current:
+                lines.append(current)
+                current = ""
+            # 如果这个单词本身就超长，强制按字符断行
+            if len(w) > max_len:
+                while len(w) > max_len and len(lines) < 3:
+                    lines.append(w[:max_len])
+                    w = w[max_len:]
+                if w and len(lines) < 3:
+                    current = w
+                elif w and len(lines) >= 3:
+                    # 已达 3 行，截断
+                    lines[-1] = lines[-1][:max_len - 3] + "..."
+                    return "<br>".join(lines[:3])
+            else:
+                current = w
+
+    if current:
+        if len(lines) < 3:
+            lines.append(current)
+        else:
+            lines[-1] = lines[-1][:max_len - 3] + "..."
+
+    return "<br>".join(lines[:3])
 
 
 # ─── 项目简介 ─────────────────────────────────
