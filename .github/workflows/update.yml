@@ -2,7 +2,7 @@ name: 自动更新星标项目
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0 点运行
+    - cron: '0 0 * * *'  # 每天 UTC 0 点运行（北京时间 8 点）
   workflow_dispatch:
 
 permissions:
@@ -14,11 +14,11 @@ jobs:
 
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      GH_USERNAME: ${{ secrets.GH_USERNAME }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       CHATGPT_API_URL: ${{ secrets.CHATGPT_API_URL }}
       CHATGPT_MODEL: ${{ secrets.CHATGPT_MODEL }}
-      GH_USERNAME: ${{ secrets.GH_USERNAME }}
-
+      TRANSLATE_DELAY: ${{ secrets.TRANSLATE_DELAY }}
 
     steps:
       - name: ✅ Checkout 仓库
@@ -40,6 +40,6 @@ jobs:
           git config --global user.name "${{ env.GH_USERNAME }}"
           git config --global user.email "${{ env.GH_USERNAME }}@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
-          git add README.md
+          git add README.md translations.json
           git commit -m "自动更新星标项目列表" || echo "没有变更"
           git push origin HEAD:${{ github.ref_name }}
