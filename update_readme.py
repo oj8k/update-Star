@@ -147,6 +147,20 @@ def main():
     seen = set()
     lines = [
         "# 🌟 我的 GitHub Star 项目\n",
+        "本仓库通过 GitHub Actions 自动同步我的 GitHub Star 项目列表，并生成 README 表格。\n",
+        "> 如需 Fork/复用本项目，请在仓库的 **Settings → Secrets and variables → Actions** 中配置以下变量。\n",
+        "## 🔧 环境变量配置\n",
+        "| 变量名 | 必填 | 说明 |",
+        "|--------|------|------|",
+        "| `GH_TOKEN` | ✅ | GitHub Personal Access Token（需勾选 `repo` 权限） |",
+        "| `GH_USERNAME` | ✅ | GitHub 用户名，例如 `oj8k` |",
+        "| `OPENAI_API_KEY` | ❌ | ChatGPT API Key，用于翻译纯英文项目描述 |",
+        "| `CHATGPT_API_URL` | ❌ | ChatGPT API 地址，默认 `https://api.openai.com/v1/chat/completions` |",
+        "| `CHATGPT_MODEL` | ❌ | ChatGPT 模型，默认 `gpt-3.5-turbo` |\n",
+        "## ⚡ 触发方式\n",
+        "- 手动触发：仓库 Actions → 自动更新星标项目 → Run workflow\n",
+        "- 自动触发：每天 UTC 00:00（北京时间 08:00）运行一次\n",
+        "---\n",
         "| 项目名称 | 项目简介 | 项目链接 |",
         "|----------|-----------|:-----------:|",
     ]
@@ -169,7 +183,7 @@ def main():
             desc_cn = chatgpt_translate(desc_raw)
             if desc_cn:
                 # 原文和翻译之间只用一个 <br>，翻译紧跟原文，无空白
-                desc_final = f"{desc_raw}<br>{desc_cn}"
+                desc_final = f"{desc_raw}<br><i>{desc_cn}</i>"
             else:
                 # 翻译失败 → 只显示原文，不显示错误信息
                 desc_final = desc_raw
