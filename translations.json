@@ -54,5 +54,6 @@
   "Programmer's guide about how to cook at home.": "程序员居家烹饪指南",
   "Lean's LEDE source": "Lean 的 LEDE 源码",
   "One-click Install and Configure Dnsmasq and Sniproxy for CentOS/Debian/Ubuntu": "为CentOS/Debian/Ubuntu一键安装并配置Dnsmasq和Sniproxy",
-  "Smart DNS proxy to watch Netflix": "智能DNS代理观看Netflix"
+  "Smart DNS proxy to watch Netflix": "智能DNS代理观看Netflix",
+  "SSH workspace, SFTP, and terminals in one": "SSH工作区、SFTP和终端三合一。"
 }
