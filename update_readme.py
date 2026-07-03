@@ -238,6 +238,7 @@ def main():
 
     lines = [
         "# 🌟 我的 GitHub Star 项目\n",
+        "<a id='top'></a>\n",
         "本仓库通过 GitHub Actions 自动同步我的 GitHub Star 项目列表，并生成 README 表格。\n",
         "> 如需 Fork/复用本项目，请在仓库的 **Settings → Secrets and variables → Actions** 中配置以下变量。\n",
         "## 🔧 环境变量配置\n",
@@ -281,13 +282,13 @@ def main():
             desc_final = desc_raw
 
         star_txt = fmt_stars(repo.stargazers_count)
-        # 用 Markdown 链接格式，GitHub 渲染时更友好
         star_link = f"[{star_txt}]({repo.html_url})"
 
-        # 项目名称也改成可点击的链接
-        name_link = f"[{name}]({repo.html_url})"
+        lines.append(f"| {name} | {desc_final} | {star_link} |")
 
-        lines.append(f"| {name_link} | {desc_final} | {star_link} |")
+    # 底部添加回到顶部链接
+    lines.append("\n---")
+    lines.append("⬆ [回到顶部](#top)")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
