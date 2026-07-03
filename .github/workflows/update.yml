@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write  # 允许删除 Actions 运行记录
 
 jobs:
   update-readme:
@@ -43,3 +44,16 @@ jobs:
           git add README.md translations.json
           git commit -m "自动更新星标项目列表" || echo "没有变更"
           git push origin HEAD:${{ github.ref_name }}
+
+      - name: 🧹 清理旧的运行记录（只保留最近5条）
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          echo "正在清理旧的 Actions 运行记录..."
+          # 获取所有运行记录（最新的在前），跳过前5条，删除其余
+          gh run list --repo ${{ github.repository }} --limit 100 \
+            --json databaseId --jq '.[5:][] | .databaseId' | \
+          while read id; do
+            gh run delete "$id" --repo ${{ github.repository }} && echo "  🗑️ 已删除运行记录: $id"
+          done
+          echo "✅ 清理完成"
