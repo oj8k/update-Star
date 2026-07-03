@@ -286,9 +286,9 @@ def main():
 
         lines.append(f"| {name} | {desc_final} | {star_link} |")
 
-    # 底部添加回到顶部链接
+    # 底部添加回到顶部链接（右下角）
     lines.append("\n---")
-    lines.append("⬆ [回到顶部](#top)")
+    lines.append("<div align='right'>⬆ <a href='#top'>回到顶部</a></div>")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
