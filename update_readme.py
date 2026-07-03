@@ -208,14 +208,15 @@ def clean_desc(desc, max_len=120):
 def fmt_stars(count):
     """
     Star 数格式化：
-    - 用 &nbsp; 连接 ⭐ 和数字，防止被拆成两行
+    - 用不间断空格(U+00A0)连接 ⭐ 和数字，防止被拆成两行
     - >= 10000 → X.XW, >= 1000 → X.XK, 其他 → 原始数字
     """
+    nbsp = "\u00a0"  # 不间断空格，兼容 Markdown 链接文本
     if count >= 10000:
-        return f"⭐&nbsp;{count / 10000:.1f}W"
+        return f"⭐{nbsp}{count / 10000:.1f}W"
     if count >= 1000:
-        return f"⭐&nbsp;{count / 1000:.1f}K"
-    return f"⭐&nbsp;{count}"
+        return f"⭐{nbsp}{count / 1000:.1f}K"
+    return f"⭐{nbsp}{count}"
 
 
 # ─── 主流程 ───────────────────────────────────
@@ -280,9 +281,13 @@ def main():
             desc_final = desc_raw
 
         star_txt = fmt_stars(repo.stargazers_count)
-        star_link = f"<a href='{repo.html_url}' target='_blank'>{star_txt}</a>"
+        # 用 Markdown 链接格式，GitHub 渲染时更友好
+        star_link = f"[{star_txt}]({repo.html_url})"
 
-        lines.append(f"| {name} | {desc_final} | {star_link} |")
+        # 项目名称也改成可点击的链接
+        name_link = f"[{name}]({repo.html_url})"
+
+        lines.append(f"| {name_link} | {desc_final} | {star_link} |")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
