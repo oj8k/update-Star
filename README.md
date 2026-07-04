@@ -28,19 +28,20 @@
 
 | 项目名称 | 项目简介 | 项目链接 |
 |----------|-----------|:-----------:|
-| GeekezBrowser | A professional anti-detect browser built on Electron and Puppeteer, integrated with the powerful Xray-core....<br>一款基于Electron和Puppeteer构建的专业反检测浏览器，集成了强大的Xray-core...... | [⭐ 933](https://github.com/EchoHS/GeekezBrowser) |
-| tg-vault | 暂无描述 | [⭐ 65](https://github.com/hicocos/tg-vault) |
-| Netcatty | SSH workspace, SFTP, and terminals in one<br>SSH工作区、SFTP和终端三合一。 | [⭐ 3.0K](https://github.com/binaricat/Netcatty) |
-| CF-Server-Monitor | 一个基于 Cloudflare Workers + D1 + Durable Objects 的多服务器监控探针系统，支持实时监控、历史数据查看、延迟追踪、地图展示等功能。兼容主流Linux系统，Alpine... | [⭐ 648](https://github.com/huilang-me/CF-Server-Monitor) |
+| fluxdo | 一个 Linux.do 第三方客户端 | [⭐ 1.9K](https://github.com/Lingyan000/fluxdo) |
+| GeekezBrowser | A professional anti-detect browser built on Electron and Puppeteer, integrated with the powerful Xray-core....<br>一款基于Electron和Puppeteer构建的专业反检测浏览器，集成了强大的Xray-core...... | [⭐ 936](https://github.com/EchoHS/GeekezBrowser) |
+| tg-vault | 暂无描述 | [⭐ 75](https://github.com/hicocos/tg-vault) |
+| Netcatty | SSH workspace, SFTP, and terminals in one<br>SSH工作区、SFTP和终端三合一。 | [⭐ 3.1K](https://github.com/binaricat/Netcatty) |
+| CF-Server-Monitor | 一个基于 Cloudflare Workers + D1 + Durable Objects 的多服务器监控探针系统，支持实时监控、历史数据查看、延迟追踪、地图展示等功能。兼容主流Linux系统，Alpine... | [⭐ 651](https://github.com/huilang-me/CF-Server-Monitor) |
 | argosbx | 小白自建代理神器！ArgoSBX一键无交互小钢炮脚本💣：Sing-box、Xray、Argo三内核自动搭配；支持VPS、Docker、容器多环境部署；套CDN的5大方案+套WARP的15种组合；已支持协议：AnyTLS、Any-realit... | [⭐ 5.4K](https://github.com/yonggekkk/argosbx) |
-| codex-candy-eval | Codex 降智测试 | [⭐ 372](https://github.com/haowang02/codex-candy-eval) |
+| codex-candy-eval | Codex 降智测试 | [⭐ 391](https://github.com/haowang02/codex-candy-eval) |
 | cc-switch | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent....<br>一个跨平台的桌面一体化助手，适用于Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI和Hermes Agent等。 | [⭐ 11.3W](https://github.com/farion1231/cc-switch) |
 | CodexPlusPlus | An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable...<br>一款针对CodexApp的增强工具，致力于让Codex更好用、更舒适…… | [⭐ 2.3W](https://github.com/BigPizzaV3/CodexPlusPlus) |
-| vohive-release | 暂无描述 | [⭐ 613](https://github.com/iniwex5/vohive-release) |
+| vohive-release | 暂无描述 | [⭐ 642](https://github.com/iniwex5/vohive-release) |
 | dujiao-next | Dujiao-Next Server 独角Next服务端 | [⭐ 765](https://github.com/dujiao-next/dujiao-next) |
-| daidai-panel | Lightweight scheduled task management panel, similar to Qinglong Panel. 轻量级定时任务管理面板 | [⭐ 257](https://github.com/linzixuanzz/daidai-panel) |
+| daidai-panel | Lightweight scheduled task management panel, similar to Qinglong Panel. 轻量级定时任务管理面板 | [⭐ 261](https://github.com/linzixuanzz/daidai-panel) |
 | carrier-ims-for-pi<br>xel | Carrier IMS for Pixel (TurboIMS): multilingual (中文/English) pixel ims / ims / carrierconfig / volte / vowifi / 5G+... | [⭐ 1.0K](https://github.com/ryfineZ/carrier-ims-for-pixel) |
-| ds-free-api | DeepSeek网页端API代理，支持OpenAI与Anthropic兼容接口 ｜ OpenAI & Anthropic compatible API proxy for DeepSeek web | [⭐ 524](https://github.com/NIyueeE/ds-free-api) |
+| ds-free-api | DeepSeek网页端API代理，支持OpenAI与Anthropic兼容接口 ｜ OpenAI & Anthropic compatible API proxy for DeepSeek web | [⭐ 523](https://github.com/NIyueeE/ds-free-api) |
 | karing | Simple & Powerful proxy utility, Support routing rules for clash/sing-box<br>简单而强大的代理工具，支持 clash/sing-box 的路由规则。 | [⭐ 1.3W](https://github.com/KaringX/karing) |
 | read-frog | 🐸 Read Frog - Open Source Immersive Translate ｜ 🐸 陪读蛙 - 开源沉浸式翻译 | [⭐ 8.3K](https://github.com/mengxi-ream/read-frog) |
 | clash-rules | 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。 | [⭐ 2.7W](https://github.com/Loyalsoldier/clash-rules) |
@@ -60,7 +61,7 @@
 | templates | 基于开源新版 QD 框架站发布的公共har模板库，仅供示例 | [⭐ 1.6K](https://github.com/qd-today/templates) |
 | douyin_downloader | 抖音福袋扭蛋机，抖音抢福袋工具，自己工作之余用VC++写的，功能还包含了一些其他小功能，抖音无水印视频下载器，抖音直播间录制下载器，抖音批量取消关注取关器 | [⭐ 604](https://github.com/testusyd/douyin_downloader) |
 | medicine | 原研药列表 | [⭐ 1.4K](https://github.com/lvwzhen/medicine) |
-| free-proxy-list | 🚀 Free HTTP, SOCKS4, & SOCKS5 Proxy List * Updated every 5 minutes *<br>🚀 免费 HTTP、SOCKS4 和 SOCKS5 代理列表 *每 5 分钟更新一次* | [⭐ 6.0K](https://github.com/proxifly/free-proxy-list) |
+| free-proxy-list | a free rotating proxy API with tested HTTPS and SOCKS5 proxies from 100+ countries<br>一个免费的轮换代理API，提供来自100多个国家的经过测试的HTTPS和SOCKS5代理。 | [⭐ 6.0K](https://github.com/proxifly/free-proxy-list) |
 | acg-faka | 个人发卡源码，发卡系统，二次元发卡系统，二次元发卡源码，发卡程序，动漫发卡，PHP发卡源码，异次元发卡 | [⭐ 5.2K](https://github.com/lizhipay/acg-faka) |
 | dujiaoka | 🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快速！🚀🚀🎉🎉 | [⭐ 1.2W](https://github.com/assimon/dujiaoka) |
 | sh | KEJILION.SH 一款全功能的Linux管理脚本！An all-in-one Linux management script! | [⭐ 3.0K](https://github.com/kejilion/sh) |
@@ -75,11 +76,11 @@
 | taosync | TaoSync是一个适用于OpenList v3+的自动化同步工具/Sync for OpenList/AList | [⭐ 1.5K](https://github.com/dr34m-cn/taosync) |
 | alist-sync | 暂无描述 | [⭐ 173](https://github.com/xjxjin/alist-sync) |
 | cloudflare_temp_em<br>ail | CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot | [⭐ 1.0W](https://github.com/dreamhunter2333/cloudflare_temp_email) |
-| oci-helper | 基于 Oracle OCI SDK 🐢 开发的 web 端可视化甲骨文云助手（Y探长），目前实现的功能有：批量添加多个租户配置、更改实例配置、引导卷配置、一键开启免费AMD实例下行500Mbps、一键更新、一键救援/缩小硬盘、附加ipv6、... | [⭐ 737](https://github.com/Yohann0617/oci-helper) |
+| oci-helper | 基于 Oracle OCI SDK 🐢 开发的 web 端可视化甲骨文云助手（Y探长），目前实现的功能有：批量添加多个租户配置、更改实例配置、引导卷配置、一键开启免费AMD实例下行500Mbps、一键更新、一键救援/缩小硬盘、附加ipv6、... | [⭐ 742](https://github.com/Yohann0617/oci-helper) |
 | vaultwarden | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs<br>用Rust编写的非官方Bitwarden兼容服务器，以前称为bitwarden_rs。 | [⭐ 6.3W](https://github.com/dani-garcia/vaultwarden) |
 | NodePassDash | A modern web dashboard for managing NodePass<br>一个用于管理NodePass的现代Web仪表板。 | [⭐ 429](https://github.com/NodePassProject/NodePassDash) |
 | flux-panel | 基于gost的转发面板 | [⭐ 169](https://github.com/BrunuhVille/flux-panel) |
-| nav-item | 导航站 | [⭐ 369](https://github.com/eooce/nav-item) |
+| nav-item | 导航站 | [⭐ 370](https://github.com/eooce/nav-item) |
 | watchtower | A process for automating Docker container base image updates.<br>自动化Docker容器基础镜像更新的流程。 | [⭐ 2.5W](https://github.com/containrrr/watchtower) |
 | NodeSeekSignin | NodeSeek 论坛自动签到Cookie版，支持青龙、直接运行、钉钉机器人通知。 | [⭐ 37](https://github.com/wugeng20/NodeSeekSignin) |
 | nftables-nat-rust | nftables nat规则生成器 | [⭐ 939](https://github.com/arloor/nftables-nat-rust) |
@@ -91,7 +92,7 @@
 | karakeep | A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search<br>一个可自托管的书签全能应用（支持链接、笔记和图片），具备基于AI的自动标签和全文搜索功能。 | [⭐ 2.6W](https://github.com/karakeep-app/karakeep) |
 | reinstall | 一键DD/重装脚本 (One-click reinstall OS on VPS) | [⭐ 1.2W](https://github.com/bin456789/reinstall) |
 | cloud-mail | A Cloudflare-based email service ｜ 基于 Cloudflare 的邮箱服务 ｜ Cloudflare Email 邮箱 Mail | [⭐ 1.2W](https://github.com/maillab/cloud-mail) |
-| ContextMenuManager | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Windows 7 - 11）A program to manage the Windows right-click context menu with support of... | [⭐ 789](https://github.com/Jack251970/ContextMenuManager) |
+| ContextMenuManager | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Windows 7 - 11）A program to manage the Windows right-click context menu with support of... | [⭐ 791](https://github.com/Jack251970/ContextMenuManager) |
 | SafeLine | SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and...<br>SafeLine 是一个自托管的 WAF（Web 应用防火墙）/反向代理，用于保护您的 Web 应用免受攻击以及…… | [⭐ 2.2W](https://github.com/chaitin/SafeLine) |
 | Termix | Self-hosted SSH and remote desktop management.<br>自托管SSH与远程桌面管理。 | [⭐ 1.4W](https://github.com/Termix-SSH/Termix) |
 | komari-theme-purca<br>rte | 一个为 Komari 设计的磨砂玻璃风格主题 | [⭐ 417](https://github.com/Montia37/komari-theme-purcarte) |
@@ -154,7 +155,7 @@
 | cook | 🍲 好的，今天我们来做菜！OK, Let's Cook! | [⭐ 6.4K](https://github.com/YunYouJun/cook) |
 | Are-u-ok | 暂无描述 | [⭐ 1.4W](https://github.com/AUK9527/Are-u-ok) |
 | vits-simple-api | A simple VITS HTTP API, developed by extending Moegoe with additional features.<br>一个简单的VITS HTTP API，通过扩展Moegoe并增加额外功能而开发。 | [⭐ 1.0K](https://github.com/Artrajz/vits-simple-api) |
-| TTSModels | 暂无描述 | [⭐ 624](https://github.com/CjangCjengh/TTSModels) |
+| TTSModels | 暂无描述 | [⭐ 623](https://github.com/CjangCjengh/TTSModels) |
 | Aoki | Mirai 一键登录处理器 (现已不可用于登录，请使用签名服务) | [⭐ 229](https://github.com/MrXiaoM/Aoki) |
 | AstrBot | AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can...<br>AI智能体助手与开发框架，集成了众多即时通讯平台、大语言模型、插件及AI功能，并且可以…… | [⭐ 3.6W](https://github.com/AstrBotDevs/AstrBot) |
 | kirara-ai | 🤖 可 DIY 的 多模态 AI 聊天机器人 ｜ 🚀 快速接入 微信、 QQ、Telegram、等聊天平台 ｜ 🦈支持DeepSeek、Grok、Claude、Ollama、Gemini、OpenAI ｜... | [⭐ 1.9W](https://github.com/lss233/kirara-ai) |
@@ -211,7 +212,7 @@
 | freenom | Freenom 域名自动续期。Freenom domain name renews automatically. | [⭐ 3.3K](https://github.com/luolongfei/freenom) |
 | x-ui | 支持多协议多用户的 xray 面板 | [⭐ 1.9W](https://github.com/vaxilu/x-ui) |
 | openwrt-packages | openwrt常用软件包 | [⭐ 7.1K](https://github.com/kenzok8/openwrt-packages) |
-| lede | Lean's LEDE source<br>Lean 的 LEDE 源码 | [⭐ 3.2W](https://github.com/coolsnowwolf/lede) |
+| lede | Lean's LEDE source<br>Lean 的 LEDE 源码 | [⭐ 3.1W](https://github.com/coolsnowwolf/lede) |
 | Actions-OpenWrt | A template for building OpenWrt with GitHub Actions ｜ 使用 GitHub Actions 在线云编译 OpenWrt 固件 | [⭐ 7.6K](https://github.com/P3TERX/Actions-OpenWrt) |
 | aria2.sh | Aria2 一键安装管理脚本 增强版 | [⭐ 3.0K](https://github.com/P3TERX/aria2.sh) |
 | My-Actions | 爱奇艺会员,腾讯视频,哔哩哔哩,百度,各类签到 | [⭐ 508](https://github.com/MayoBlueSky/My-Actions) |
@@ -220,7 +221,7 @@
 | dnsmasq_sniproxy_i<br>nstall | One-click Install and Configure Dnsmasq and Sniproxy for CentOS/Debian/Ubuntu<br>为CentOS/Debian/Ubuntu一键安装并配置Dnsmasq和Sniproxy | [⭐ 1.4K](https://github.com/myxuchangbin/dnsmasq_sniproxy_install) |
 | dnsunblocknetflix | dns解锁netflix 一键修改dns无脑脚本 | [⭐ 21](https://github.com/DayoWong0/dnsunblocknetflix) |
 | netflix-proxy | Smart DNS proxy to watch Netflix<br>智能DNS代理观看Netflix | [⭐ 3.7K](https://github.com/ab77/netflix-proxy) |
-| SSTAP_ip_crawl_too<br>l | 一个自动获取游戏远程ip，并自动写成SSTAP/NETCH规则文件的脚本 | [⭐ 674](https://github.com/oooldtoy/SSTAP_ip_crawl_tool) |
+| SSTAP_ip_crawl_too<br>l | 一个自动获取游戏远程ip，并自动写成SSTAP/NETCH规则文件的脚本 | [⭐ 673](https://github.com/oooldtoy/SSTAP_ip_crawl_tool) |
 | qiandao | 签到 | [⭐ 3.4K](https://github.com/binux/qiandao) |
 
 ---
