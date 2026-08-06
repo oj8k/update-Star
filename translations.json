@@ -73,5 +73,6 @@
   "Agent-native reverse-engineering lab with a 197-article knowledge base, MCP tools, and CTF/APK/PE automation...": "一个基于代理原生的逆向工程实验室，拥有197篇文章的知识库、MCP工具以及CTF/APK/PE自动化……",
   "Based on the sing-box core, this Android proxy module supports one-click start/stop of transparent proxy and is...": "基于 sing-box 核心，这个 Android 代理模块支持一键启动/停止透明代理，并且是……",
   "Dujiao-Next": "独角-下一代",
-  "Click-to-run debian 13 with desktop environment on android!": "在安卓上一键运行带桌面环境的Debian 13！"
+  "Click-to-run debian 13 with desktop environment on android!": "在安卓上一键运行带桌面环境的Debian 13！",
+  "Multi-tenant port-forwarding panel built on nftables (Go, single binary, SQLite)": "基于nftables构建的多租户端口转发面板（Go语言，单二进制文件，SQLite）"
 }
