@@ -74,5 +74,6 @@
   "Based on the sing-box core, this Android proxy module supports one-click start/stop of transparent proxy and is...": "基于 sing-box 核心，这个 Android 代理模块支持一键启动/停止透明代理，并且是……",
   "Dujiao-Next": "独角-下一代",
   "Click-to-run debian 13 with desktop environment on android!": "在安卓上一键运行带桌面环境的Debian 13！",
-  "Multi-tenant port-forwarding panel built on nftables (Go, single binary, SQLite)": "基于nftables构建的多租户端口转发面板（Go语言，单二进制文件，SQLite）"
+  "Multi-tenant port-forwarding panel built on nftables (Go, single binary, SQLite)": "基于nftables构建的多租户端口转发面板（Go语言，单二进制文件，SQLite）",
+  "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It...": "Vocat 是一个开源网页控制面板和工程工具包，用于移远 EC20/EC25 系列蜂窝调制解调器。它..."
 }
