@@ -75,5 +75,6 @@
   "Dujiao-Next": "独角-下一代",
   "Click-to-run debian 13 with desktop environment on android!": "在安卓上一键运行带桌面环境的Debian 13！",
   "Multi-tenant port-forwarding panel built on nftables (Go, single binary, SQLite)": "基于nftables构建的多租户端口转发面板（Go语言，单二进制文件，SQLite）",
-  "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It...": "Vocat 是一个开源网页控制面板和工程工具包，用于移远 EC20/EC25 系列蜂窝调制解调器。它..."
+  "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It...": "Vocat 是一个开源网页控制面板和工程工具包，用于移远 EC20/EC25 系列蜂窝调制解调器。它...",
+  "Hysteria is powerful, lightning-fast, and censorship-resistant open-source proxy software": "Hysteria 是一款功能强大、速度极快且抗审查的开源代理软件。"
 }
