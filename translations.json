@@ -77,5 +77,7 @@
   "Multi-tenant port-forwarding panel built on nftables (Go, single binary, SQLite)": "基于nftables构建的多租户端口转发面板（Go语言，单二进制文件，SQLite）",
   "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It...": "Vocat 是一个开源网页控制面板和工程工具包，用于移远 EC20/EC25 系列蜂窝调制解调器。它...",
   "Hysteria is powerful, lightning-fast, and censorship-resistant open-source proxy software": "Hysteria 是一款功能强大、速度极快且抗审查的开源代理软件。",
-  "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun,...": "支持多种协议多用户（Vmess、Vless、Trojan、ShadowSocks、Wireguard、Hysteria、Tunnel、Mixed、HTTP、Tun，……）"
+  "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun,...": "支持多种协议多用户（Vmess、Vless、Trojan、ShadowSocks、Wireguard、Hysteria、Tunnel、Mixed、HTTP、Tun，……）",
+  "Uninstall Microsoft Edge with a batch script.": "使用批处理脚本卸载Microsoft Edge。",
+  "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5,...": "✨ 零配置AI聊天助手。无需API密钥——注册即可立即与GPT-5、Claude 4、Gemini 2.5……畅聊。"
 }
