@@ -28,10 +28,10 @@
 
 | 项目名称 | 项目简介 | 项目链接 |
 |----------|-----------|:-----------:|
-| quickscan | 轻量截屏扫码工具 · Lightweight screen-capture QR scanner (Tauri 2, ~1.3MB installer) | [⭐ 212](https://github.com/yoli-mi/quickscan) |
+| quickscan | 轻量截屏扫码工具 · Lightweight screen-capture QR scanner (Tauri 2, ~1.3MB installer) | [⭐ 218](https://github.com/yoli-mi/quickscan) |
 | WeChat-AI | WeChat AI - 自托管微信角色扮演对话服务 | [⭐ 1.9K](https://github.com/SMNETSTUDIO/WeChat-AI) |
-| VoCat | Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It...<br>Vocat 是一个开源网页控制面板和工程工具包，用于移远 EC20/EC25 系列蜂窝调制解调器。它... | [⭐ 816](https://github.com/MengMengCode/VoCat) |
-| location-spoofer | 面向 iOS 定位服务行为研究和开发测试的虚拟定位工具，支持地图选点、本地与第三方代理、WGS-84 / GCJ-02 双坐标、环境检测和问题诊断。 | [⭐ 873](https://github.com/xweiba/location-spoofer) |
+| VoCat | Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It...<br>Vocat 是一个开源网页控制面板和工程工具包，用于移远 EC20/EC25 系列蜂窝调制解调器。它... | [⭐ 822](https://github.com/MengMengCode/VoCat) |
+| location-spoofer | 面向 iOS 定位服务行为研究和开发测试的虚拟定位工具，支持地图选点、本地与第三方代理、WGS-84 / GCJ-02 双坐标、环境检测和问题诊断。 | [⭐ 874](https://github.com/xweiba/location-spoofer) |
 | outlookEmail | outlookEmail 支持 Outlook/Hotmail、Gmail、QQ、163、126、Yahoo、阿里邮箱以及自定义 IMAP 邮箱，同时集成 GPTMail、DuckMail、Cloudflare Temp Email... | [⭐ 1.6K](https://github.com/assast/outlookEmail) |
 | Vohive-155 | 暂无描述 | [⭐ 62](https://github.com/Orson-Yan/Vohive-155) |
 | nft-forward | Multi-tenant port-forwarding panel built on nftables (Go, single binary, SQLite)<br>基于nftables构建的多租户端口转发面板（Go语言，单二进制文件，SQLite） | [⭐ 110](https://github.com/xjetry/nft-forward) |
@@ -40,7 +40,7 @@
 | domain-autocheck | 采用Cloudflare的workers的方式，部署的域名监控系统 | [⭐ 1](https://github.com/jia0327/domain-autocheck) |
 | singbox-deploy | 一个跨平台、自动化、全兼容的 Sing-box 一键部署脚本 | [⭐ 565](https://github.com/caigouzi121380/singbox-deploy) |
 | device_faker | 自定义配置Zygisk机型伪装 | [⭐ 753](https://github.com/Seyud/device_faker) |
-| TcpQuality | 暂无描述 | [⭐ 837](https://github.com/ibsgss/TcpQuality) |
+| TcpQuality | 暂无描述 | [⭐ 840](https://github.com/ibsgss/TcpQuality) |
 | cf-outlook-email | 📬 基于 Cloudflare Workers 的轻量级 Outlook 邮件管理工具 · 免费 · 无需服务器 ｜ Lightweight Outlook email manager, serverless & free ⚡ | [⭐ 255](https://github.com/roseforyou/cf-outlook-email) |
 | mjjssh | MJJ SSH 工具，ai助手管理面板 | [⭐ 8](https://github.com/34892002/mjjssh) |
 | NetQuality | 网络质量检测脚本 - Network Quality Check Script | [⭐ 5.6K](https://github.com/xykt/NetQuality) |
@@ -59,13 +59,13 @@
 | QtScrcpy | Android real-time display control software<br>Android实时显示控制软件 | [⭐ 3.2W](https://github.com/barry-ran/QtScrcpy) |
 | grok-register | 批量稳定注册 Grok 账号，支持 WebUI/GUI/CLI、多邮箱服务、多线程并发、账号级多协议代理池、grok2api 入池、SSO 风控筛查与CPA OIDC 凭证导出。 | [⭐ 2.2K](https://github.com/AaronL725/grok-register) |
 | grok2api | 暂无描述 | [⭐ 1.9K](https://github.com/jiujiu532/grok2api) |
-| nodewarden | Bitwarden-compatible server running on Cloudflare Workers<br>运行在Cloudflare Workers上的与Bitwarden兼容的服务器 | [⭐ 3.6K](https://github.com/shuaiplus/nodewarden) |
+| nodewarden | Bitwarden-compatible server running on Cloudflare Workers<br>运行在Cloudflare Workers上的与Bitwarden兼容的服务器 | [⭐ 3.7K](https://github.com/shuaiplus/nodewarden) |
 | dnsmgr | 彩虹聚合DNS管理系统 | [⭐ 1.5K](https://github.com/netcccyun/dnsmgr) |
 | sub2api | Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 | [⭐ 4.1W](https://github.com/Wei-Shaw/sub2api) |
 | dji-4g-vohive-mac | 在 Mac（Apple Silicon / Intel）上用 UTM 跑 Linux 虚拟机，把大疆 4G 模块（EG25-G）伪装成移远 Quectel EC25 并部署 vohive 平台的完整步骤 | [⭐ 1.0K](https://github.com/wlzh/dji-4g-vohive-mac) |
 | fluxdo | 一个 Linux.do 第三方客户端 | [⭐ 2.4K](https://github.com/Lingyan000/fluxdo) |
 | GeekezBrowser | A professional anti-detect browser built on Electron and Puppeteer, integrated with the powerful Xray-core....<br>一款基于Electron和Puppeteer构建的专业反检测浏览器，集成了强大的Xray-core...... | [⭐ 1.1K](https://github.com/EchoHS/GeekezBrowser) |
-| tg-vault | Telegram 转存、媒体归档与多存储源私有云系统 | [⭐ 199](https://github.com/hicocos/tg-vault) |
+| tg-vault | Telegram 转存、媒体归档与多存储源私有云系统 | [⭐ 206](https://github.com/hicocos/tg-vault) |
 | Netcatty | SSH workspace, SFTP, and terminals in one<br>SSH工作区、SFTP和终端三合一。 | [⭐ 5.9K](https://github.com/binaricat/Netcatty) |
 | CF-Server-Monitor | 一个基于 Cloudflare Workers + D1 + Durable Objects 的免费多服务器监控探针系统，支持实时监控、离线告警，到期通知，历史数据查看、延迟追踪、地图展示等功能。兼容主流Linux系统，Alpine... | [⭐ 1.8K](https://github.com/huilang-me/CF-Server-Monitor) |
 | argosbx | 小白自建代理神器！ArgoSBX一键无交互小钢炮脚本💣：Sing-box、Xray、Argo三内核自动搭配；支持VPS、Docker、容器多环境部署；套CDN的5大方案+套WARP的15种组合；已支持协议：Naiveproxy、AnyTLS... | [⭐ 5.8K](https://github.com/yonggekkk/argosbx) |
@@ -74,21 +74,21 @@
 | CodexPlusPlus | An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable...<br>一款针对CodexApp的增强工具，致力于让Codex更好用、更舒适…… | [⭐ 3.1W](https://github.com/BigPizzaV3/CodexPlusPlus) |
 | vohive-release | 暂无描述 | [⭐ 807](https://github.com/iniwex5/vohive-release) |
 | dujiao-next | Dujiao-Next<br>独角-下一代 | [⭐ 1.2K](https://github.com/dujiao-next/dujiao-next) |
-| daidai-panel | Lightweight scheduled task management panel, similar to Qinglong Panel. 轻量级定时任务管理面板 | [⭐ 507](https://github.com/linzixuanzz/daidai-panel) |
+| daidai-panel | Lightweight scheduled task management panel, similar to Qinglong Panel. 轻量级定时任务管理面板 | [⭐ 513](https://github.com/linzixuanzz/daidai-panel) |
 | carrier-ims-for-pi<br>xel | Carrier IMS for Pixel (TurboIMS): multilingual (中文/English) pixel ims / ims / carrierconfig / volte / vowifi / 5G+... | [⭐ 1.7K](https://github.com/ryfineZ/carrier-ims-for-pixel) |
-| ds-free-api | DeepSeek网页端API代理，支持OpenAI与Anthropic兼容接口 ｜ OpenAI & Anthropic compatible API proxy for DeepSeek web | [⭐ 681](https://github.com/NIyueeE/ds-free-api) |
+| ds-free-api | DeepSeek网页端API代理，支持OpenAI与Anthropic兼容接口 ｜ OpenAI & Anthropic compatible API proxy for DeepSeek web | [⭐ 685](https://github.com/NIyueeE/ds-free-api) |
 | karing | Simple & Powerful proxy utility, Support routing rules for clash/sing-box<br>简单而强大的代理工具，支持 clash/sing-box 的路由规则。 | [⭐ 1.5W](https://github.com/KaringX/karing) |
 | read-frog | 🐸 Read Frog - Language Learning & Translate ｜ 🐸 陪读蛙 - 语言学习与翻译 | [⭐ 9.7K](https://github.com/mengxi-ream/read-frog) |
 | clash-rules | 🦄️ 🎃 👻 Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 等基于 Clash Premium 内核的客户端。 | [⭐ 2.8W](https://github.com/Loyalsoldier/clash-rules) |
 | meta-rules-dat | rules-dat for mihomo<br>mihomo 的规则 dat 文件 | [⭐ 5.2K](https://github.com/MetaCubeX/meta-rules-dat) |
 | Xray | 最好用的 Xray 一键安装脚本 & 管理脚本 | [⭐ 17](https://github.com/justypist/Xray) |
 | Sing-box | 既然来了，就留下你的Star吧！Serv00 ｜ CT8 ｜ Hostuno ｜ VPS ｜ 游戏机 ｜ sing-box(reality + hy2 + vmess-argo... | [⭐ 5.1K](https://github.com/eooce/Sing-box) |
-| flvx | FLVX转发面板 | [⭐ 273](https://github.com/Sagit-chu/flvx) |
-| dstatus | DStatus 探针 是一个现代化的服务器状态监控系统，提供简洁美观的UI界面和强大的探针 agent 监控功能。 | [⭐ 410](https://github.com/fev125/dstatus) |
+| flvx | FLVX转发面板 | [⭐ 274](https://github.com/Sagit-chu/flvx) |
+| dstatus | DStatus 探针 是一个现代化的服务器状态监控系统，提供简洁美观的UI界面和强大的探针 agent 监控功能。 | [⭐ 411](https://github.com/fev125/dstatus) |
 | linuxdo-checkin | linux.do Daily Check-In. 每日签到，每日打卡 | [⭐ 329](https://github.com/doveppp/linuxdo-checkin) |
 | aimili-vpngate | aimili-vpngate是一个借助vpngate.net让Linux用干净ip出站的代理工具。 | [⭐ 1.9K](https://github.com/baoweise-bot/aimili-vpngate) |
 | DTV | 抖音、b站、斗鱼、虎牙跨平台轻量化桌面客户端 | [⭐ 1.9K](https://github.com/chen-zeong/DTV) |
-| sms-jiema | 汇总国外1000个免费手机号接码 - 国外免费手机号验证平台 | [⭐ 361](https://github.com/workwayfi/sms-jiema) |
+| sms-jiema | 汇总国外1000个免费手机号接码 - 国外免费手机号验证平台 | [⭐ 362](https://github.com/workwayfi/sms-jiema) |
 | worldmonitor | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure...<br>实时全球情报仪表盘。由人工智能驱动的新闻聚合、地缘政治监控及基础设施…… | [⭐ 8.6W](https://github.com/koala73/worldmonitor) |
 | BilibiliSponsorBlo<br>ck | 一款跳过小电视视频中恰饭片段的浏览器插件，移植自 SponsorBlock。A browser extension to skip sponsored segments in videos, ported from the... | [⭐ 6.1K](https://github.com/hanydd/BilibiliSponsorBlock) |
 | SSTap-Rule | 支持更多游戏规则，让SSTap成为真正的“网游加速器” | [⭐ 6.6K](https://github.com/FQrabbit/SSTap-Rule) |
@@ -127,7 +127,7 @@
 | karakeep | A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search<br>一个可自托管的书签全能应用（支持链接、笔记和图片），具备基于AI的自动标签和全文搜索功能。 | [⭐ 2.9W](https://github.com/karakeep-app/karakeep) |
 | reinstall | 一键DD/重装脚本 (One-click reinstall OS on VPS) | [⭐ 1.3W](https://github.com/bin456789/reinstall) |
 | cloud-mail | A Cloudflare-based email service ｜ 基于 Cloudflare 的邮箱服务 ｜ Cloudflare Email 邮箱 Mail | [⭐ 1.4W](https://github.com/maillab/cloud-mail) |
-| ContextMenuManager | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Windows 7 - 11）A program to manage the Windows right-click context menu with support of... | [⭐ 926](https://github.com/Jack251970/ContextMenuManager) |
+| ContextMenuManager | 🖱️ 一个管理 Windows 右键上下文菜单的程序（支持Windows 7 - 11）A program to manage the Windows right-click context menu with support of... | [⭐ 928](https://github.com/Jack251970/ContextMenuManager) |
 | SafeLine | SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and...<br>SafeLine 是一个自托管的 WAF（Web 应用防火墙）/反向代理，用于保护您的 Web 应用免受攻击以及…… | [⭐ 2.3W](https://github.com/chaitin/SafeLine) |
 | Termix | Self-hosted SSH and remote desktop management.<br>自托管SSH与远程桌面管理。 | [⭐ 1.5W](https://github.com/Termix-SSH/Termix) |
 | komari-theme-purca<br>rte | 一个为 Komari 设计的磨砂玻璃风格主题 | [⭐ 425](https://github.com/Montia37/komari-theme-purcarte) |
