@@ -80,5 +80,6 @@
   "Supporting multi-protocol multi-user(Vmess, Vless, Trojan, ShadowSocks, Wireguard, Hysteria, Tunnel, Mixed, HTTP, Tun,...": "支持多种协议多用户（Vmess、Vless、Trojan、ShadowSocks、Wireguard、Hysteria、Tunnel、Mixed、HTTP、Tun，……）",
   "Uninstall Microsoft Edge with a batch script.": "使用批处理脚本卸载Microsoft Edge。",
   "✨ Zero-config AI chat assistant. No API key needed — sign up and instantly chat with GPT-5, Claude 4, Gemini 2.5,...": "✨ 零配置AI聊天助手。无需API密钥——注册即可立即与GPT-5、Claude 4、Gemini 2.5……畅聊。",
-  "Open-source AI reverse-engineering agent platform and MCP server for Ghidra, Frida, x64dbg and Rizin — automated...": "开源AI逆向工程代理平台，以及面向Ghidra、Frida、x64dbg和Rizin的MCP服务器——自动化..."
+  "Open-source AI reverse-engineering agent platform and MCP server for Ghidra, Frida, x64dbg and Rizin — automated...": "开源AI逆向工程代理平台，以及面向Ghidra、Frida、x64dbg和Rizin的MCP服务器——自动化...",
+  "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Davin as an OpenAI/Gemini/Claude/Codex compatible...": "将Antigravity、ChatGPT Codex、Claude Code、Grok Build、Muse Code和Davin封装为与OpenAI/Gemini/Claude/Codex兼容的……"
 }
