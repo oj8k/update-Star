@@ -83,5 +83,8 @@
   "Open-source AI reverse-engineering agent platform and MCP server for Ghidra, Frida, x64dbg and Rizin — automated...": "开源AI逆向工程代理平台，以及面向Ghidra、Frida、x64dbg和Rizin的MCP服务器——自动化...",
   "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Davin as an OpenAI/Gemini/Claude/Codex compatible...": "将Antigravity、ChatGPT Codex、Claude Code、Grok Build、Muse Code和Davin封装为与OpenAI/Gemini/Claude/Codex兼容的……",
   "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible...": "将 Antigravity、ChatGPT Codex、Claude Code、Grok Build、Muse Code、Devin 包装为与 OpenAI/Gemini/Claude/Codex 兼容的……",
-  "Self-hosted, plugin-based server management.": "自托管、基于插件的服务器管理。"
+  "Self-hosted, plugin-based server management.": "自托管、基于插件的服务器管理。",
+  "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official...": "一个跨平台的桌面一体化助手，适用于Claude Code、Codex、OpenCode、DeepSeek Harness等。仅官方...",
+  "Your AI workspace for models, agents, and productivity.": "您的AI工作空间，专为模型、智能体和生产力而设计。",
+  "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access...": "开源AI网关。自托管的LLM网关，支持OpenAI、Claude和Gemini兼容API，模型路由，访问..."
 }
