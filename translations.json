@@ -87,5 +87,6 @@
   "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official...": "一个跨平台的桌面一体化助手，适用于Claude Code、Codex、OpenCode、DeepSeek Harness等。仅官方...",
   "Your AI workspace for models, agents, and productivity.": "您的AI工作空间，专为模型、智能体和生产力而设计。",
   "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access...": "开源AI网关。自托管的LLM网关，支持OpenAI、Claude和Gemini兼容API，模型路由，访问...",
-  "The AI local media metadata crawler": "AI本地媒体元数据爬虫"
+  "The AI local media metadata crawler": "AI本地媒体元数据爬虫",
+  "ServerBox - high performance server toolbox app & server written in Flutter & Rust.": "ServerBox——高性能服务器工具箱应用及服务器，使用Flutter和Rust编写。"
 }
