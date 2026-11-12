@@ -88,5 +88,6 @@
   "Your AI workspace for models, agents, and productivity.": "您的AI工作空间，专为模型、智能体和生产力而设计。",
   "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access...": "开源AI网关。自托管的LLM网关，支持OpenAI、Claude和Gemini兼容API，模型路由，访问...",
   "The AI local media metadata crawler": "AI本地媒体元数据爬虫",
-  "ServerBox - high performance server toolbox app & server written in Flutter & Rust.": "ServerBox——高性能服务器工具箱应用及服务器，使用Flutter和Rust编写。"
+  "ServerBox - high performance server toolbox app & server written in Flutter & Rust.": "ServerBox——高性能服务器工具箱应用及服务器，使用Flutter和Rust编写。",
+  "Modern protocol-side framework": "**现代协议端框架**\n\n说明：\n- **Modern** → 现代\n- **Protocol-side** → 协议端 / 协议侧（指协议实现的一端，如服务端或客户端）\n- **Framework** → 框架\n\n在技术语境中，`protocol-side` 通常译为“协议端”或“协议侧”，两者均可接受，其中“协议端”在网络/通信领域更为常用。"
 }
